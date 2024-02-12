@@ -6,7 +6,7 @@ googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
-publishDir: "../../baptistegenest.github.io"
+publishDir: "../../eulerson314.github.io"
 
 permalinks:
   note: "/note/:year/:month/:day/:slug/"
