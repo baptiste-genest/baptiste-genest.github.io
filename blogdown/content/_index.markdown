@@ -4,18 +4,19 @@ title: Home
 
 [<img src="batou.jpeg" style="max-width:30%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/eulerson314)
 
-# Baptiste GENEST
+<br><br>
 
-## _French Graduate student in Applied Mathematics_
-### _Geometry Processing Researcher Wannabe_
+<h1 style="text-align: center;"> Baptiste GENEST </h1>
+<h3 style="text-align: center;"> <i>French Graduate student in Applied Mathematics</i> </h3>
 
-# Education
+<br><br>
+<h1><u>Education</u></h1>
 
 - 2019-2022 **Licence Major CS Minor Math - Université Lyon 1** 1/20 (among "bi-licence" CS/Math students)
 - 22-23 **Master 1 Computer Science - Université Lyon 1** 1/70 + **4 Applied Math Courses Master 1** 2/30
 - 23-24 **Master 2 "Maths en Action"** (Research in Applied Math)
 
-# Experience
+<h1><u>Experience</u></h1>
 
 - *Research Internship* : Summer 22 - with [David Coeurjolly](https://perso.liris.cnrs.fr/david.coeurjolly/) - "Discrete differential operators on polygonal meshes" contribution to [DGtal](https://www.dgtal.org/doc/stable/moduleVectorsInHeat.html)
 
@@ -23,7 +24,7 @@ title: Home
 
 - *Research Internship* : April to September 24 - **Adobe** Lyon  
 
-# Conferences
+<h1><u> Conferences</u></h1>
 
 - Attendee : SGP 23
 
