@@ -1,0 +1,36 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Baptiste GENEST website"
+theme: "hugo-xmin"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+footnotereturnlinkcontents: "↩"
+publishDir: "../../baptistegenest.github.io"
+
+permalinks:
+  note: "/note/:year/:month/:day/:slug/"
+  post: "/post/:year/:month/:day/:slug/"
+
+menu:
+  main:
+    - name: About
+      url: ""
+      weight: 1
+    - name: Publications
+      url: "publications/"
+      weight: 2
+    - name: Teaching
+      url: "teaching/"
+      weight: 3
+
+params:
+  description: "A website built through Hugo and blogdown."
+  footer: "[Github](https://github.com/eulerson314) | [Twitter](https://twitter.com/Eulerson314) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
+
+markup:
+  highlight:
+    codeFences: false
+  goldmark:
+    renderer:
+      unsafe: true
