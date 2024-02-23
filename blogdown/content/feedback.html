@@ -1,0 +1,25 @@
+<form id="feedbackForm">
+  <label for="feedback">Votre feedback :</label><br>
+  <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
+  <button type="submit">Envoyer</button>
+</form>
+
+<script>
+document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Empêcher le formulaire de se soumettre normalement
+  
+  var feedback = document.getElementById("feedback").value;
+
+  // Envoyer les données à votre adresse e-mail
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "mailto:votre@email.com"); // Remplacez "votre@email.com" par votre adresse e-mail
+  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  xhr.send("feedback=" + encodeURIComponent(feedback));
+
+  // Message de confirmation pour l'utilisateur
+  alert("Merci pour votre retour !");
+
+  // Réinitialiser le formulaire
+  document.getElementById("feedbackForm").reset();
+});
+</script>

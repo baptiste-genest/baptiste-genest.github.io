@@ -29,13 +29,13 @@ title: Home
 - Attendee : SGP 23
 
 ## Topics I am interested in : 
-- classical and discrete Differential Geometry
+- Geometry Processing
+- Classical and Discrete Differential Geometry
 - PDE's
 - Numerical Schemes
 - Optimal Transport
 - Numerical Linear Algebra
-- Geometry Processing
 - Lie Groups
-- Matching Diffeomorphisms
+- Physical Simulation and Fluid Mecanics
 - SDE's and applications to monte-carlo PDE methods
 
