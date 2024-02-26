@@ -3,4 +3,4 @@ title: "Publications"
 ---
 
 - ***Non-Euclidean Sliced Optimal Transport Sampling*** - Eurographics 2024 -
-    Baptiste Genest, David Coeurjolly, Nicolas Courty
+    Baptiste Genest, David Coeurjolly, Nicolas Courty [PDF](https://github.com/baptiste-genest/papers/blob/main/NESOTS.pdf)[code](https://github.com/baptiste-genest/NESOTS)

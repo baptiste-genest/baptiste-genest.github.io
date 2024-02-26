@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 
 ---
 
 [<img src="batou.jpeg" style="max-width:30%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/eulerson314)
