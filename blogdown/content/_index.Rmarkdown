@@ -26,6 +26,7 @@ title:
 
 <h1><u> Conferences</u></h1>
 
+- Attendee : SGP 22 (remote)
 - Attendee : SGP 23
 
 ## Topics I am interested in : 
