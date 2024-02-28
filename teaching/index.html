@@ -61,8 +61,6 @@ document.getElementById("feedbackForm").addEventListener("submit", function(even
   event.preventDefault(); // Empêcher le formulaire de se soumettre normalement
   let password = document.getElementById("password").value;
   let feedback = document.getElementById("feedback").value;
-  console.log(asciiToHex(password));
-  console.log(attemptDecodeToken(password));
   if (hashCode(password) == -868335013){
   Email.send({
     SecureToken : "4ce2a60f-646a-4078-b0aa-" + attemptDecodeToken(password),
