@@ -26,7 +26,7 @@ menu:
 
 params:
   description: "A website built through Hugo and blogdown."
-  footer: "[Github](https://github.com/eulerson314) | [Twitter](https://twitter.com/Eulerson314) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
+  footer: "[Github](https://github.com/baptiste-genest) | [Twitter](https://twitter.com/Eulerson314) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
 
 markup:
   highlight:
