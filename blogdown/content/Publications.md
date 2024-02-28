@@ -18,9 +18,7 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
-<a href="https://arxiv.org/abs/2402.16981">
-<button class="button-4" role="button">PDF</button>
-</a>
+<button class="button-4" type="submit" formaction="https://arxiv.org/abs/2402.16981">PDF</button>
 <a href="https://github.com/baptiste-genest/NESOTS">
 <button class="button-4" role="button">CODE</button>
 </a>
