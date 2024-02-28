@@ -18,8 +18,8 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
-<button class="button-4" type="submit" formaction="https://arxiv.org/abs/2402.16981">PDF</button>
-<button class="button-4" type="submit" formaction="https://github.com/baptiste-genest/NESOTS">CODE</button>
+<button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">PDF</button>
+<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">CODE</button>
 <button class="button-4" role="button" onclick="copyBib(nesots_bib)">Copy BibTeX</button>
 
 </div>
