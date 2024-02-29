@@ -33,15 +33,90 @@
 
 <main>
 <h2 id="estimation-of-the-volume-of-voronoi-cells-in-high-dimension-and-control-variables-in-monte-carlo-rendering">&ldquo;Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering&rdquo;</h2>
-<p>Supervised by David Coeurjolly and Vincent Nivoliers</p>
 <ul>
 <li>Exploration of stochastic techniques in estimating the volume and barycenters of Voronoi cells in high dimension</li>
 <li>Improvement of Monte Carlo integration by control variate techniques, new control variate proposed</li>
-<li>Proofs of domination of the new control variate over the original control variate</li>
+<li>Caracterization and proofs of domination of the new control variate over the original control variate</li>
 </ul>
 <div style="text-align:center">
 <img src="../projects/vorayce.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-<p><button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button></p>
+Supervised by David Coeurjolly and Vincent Nivoliers
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button>
+</div>
+<p><img src="region_growing.png" style="display: block; float:right;
+margin-left: auto;
+margin-right: auto;" alt= “” width="250" height=""></p>
+<h2 id="image-segmentation--region-growing-and-split-and-merge-algorithms">Image Segmentation : Region Growing and Split and Merge Algorithms</h2>
+<ul>
+<li>Region Growing : use of more various metric (Wasserstein distance between histograms, Mahalanobis distance, Lp norms) to compare regions</li>
+<li>Efficient Split and Merge implementation using a quadtree structure and binary encoding to compute neighborhoods</li>
+</ul>
+<div style="text-align:center">
+<p><button class="button-4" style="display:right" onclick="window.location.href='../projects/rapport_seg.pdf'">Report</button></p>
+</div>
+<h2 id="edge-detection--hough-transform-and-improvements">Edge Detection : Hough Transform and improvements</h2>
+<ul>
+<li>Implementation of the Active Contour Method for image segmentation</li>
+<li>Implementation of the Hough Transform for line detection</li>
+<li>New line detection algorithm based on DBScan in pixel-gradient space</li>
+</ul>
+<div style="text-align:center">
+<img src="../projects/active_contour.png" style="display:left; margin-left: auto; margin-right: auto;max-width:40%"/>
+<img src="../projects/dbscan.png" style="display:right; margin-left: auto; margin-right: auto;max-width:50%"/>
+</div>
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_edge_detection.pdf'">Report</button>
+</div>
+<p><img src="XPBD.png" style="display: block; float:right;
+margin-left: auto;
+margin-right: auto;" alt= “” width="200" height=""></p>
+<h2 id="cloth-simulation--mass-spring-system--xpbd">Cloth simulation : Mass Spring system &amp; XPBD</h2>
+<ul>
+<li>Implementation of Mass Spring System</li>
+<li>Implementation of XPBD</li>
+<li>Spatial Hasing for fast collision detection</li>
+</ul>
+<h2 id="internship--failed-use-of-normal-information-to-improve-differential-operators-on-polygonal-meshes">Internship : (failed) Use of Normal information to improve differential operators on polygonal meshes</h2>
+<ul>
+<li>Various Spline based approaches to provides better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on <a href="https://graphics.pixar.com/library/PolyDDG/paper.pdf">Fernando De Goes et al.</a></li>
+</ul>
+<div style="text-align:center">
+<img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
+Supervised by David Coeurjolly
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
+</div>
+<h2 id="ambiant-occlusion--diffusion-limited-aggregation">Ambiant Occlusion &amp; Diffusion Limited Aggregation</h2>
+<ul>
+<li>Quasi Monte Carlo techniques for Ambiant Occlusion on heightfields</li>
+<li>Improvement of DLA algorithm by simulation brownian motion through a Walk-On-Sphere way and Octree for closest point search</li>
+</ul>
+<div style="text-align:center">
+<img src="../projects/DLA.png" style="display:left; margin-left: auto; margin-right: auto;max-width:60%"/>
+<img src="../projects/AO.png" style="display:right; margin-left: auto; margin-right: auto;max-width:37%"/>
+</div>
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
+</div>
+<h2 id="curves--clouds---a-scientific-vizualiastion-and-computing-library">Curves &amp; Clouds - A scientific vizualiastion and computing library</h2>
+<p>A lot a different topics are covered :</p>
+<ul>
+<li>standard scientific visualization (1D and 2D plots, points clouds, etc&hellip;)</li>
+<li>ODE solvers</li>
+<li>Dense and Sparse Linear Algebra solvers</li>
+<li>ML algorithms (Kmeans, PCA, etc&hellip;)</li>
+<li>FEM solvers</li>
+<li>Quadtree and Delauney Meshing</li>
+<li>Semi discrete Optimal Transport</li>
+<li>Symbolic Differentiation -&gt; Geodesic equation solver (used for raytracing around black holes)</li>
+<li>etc&hellip;</li>
+</ul>
+<div style="text-align:center">
+<img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+<img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
+<img src="../projects/poutre.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+</div>
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
 </div>
 
 </main>
