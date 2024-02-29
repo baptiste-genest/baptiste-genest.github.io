@@ -77,7 +77,7 @@ Supervised by David Coeurjolly
 <button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
 </div>
 
-## Curves & Clouds - A scientific vizualiastion and computing library
+## Curves & Clouds - A scientific visualization and computing library
 
 A lot a different topics are covered :
   - standard scientific visualization (1D and 2D plots, points clouds, etc...)
