@@ -1,0 +1,102 @@
+---
+title: "Projects"
+---
+
+##  "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
+
+- Exploration of stochastic techniques in estimating the volume and barycenters of Voronoi cells in high dimension
+- Improvement of Monte Carlo integration by control variate techniques, new control variate proposed
+- Caracterization and proofs of domination of the new control variate over the original control variate
+
+<div style="text-align:center">
+<img src="../projects/vorayce.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
+Supervised by David Coeurjolly and Vincent Nivoliers
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button>
+</div>
+
+
+<img src="region_growing.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="250" height="">
+
+## Image Segmentation : Region Growing and Split and Merge Algorithms
+
+- Region Growing : use of more various metric (Wasserstein distance between histograms, Mahalanobis distance, Lp norms) to compare regions
+- Efficient Split and Merge implementation using a quadtree structure and binary encoding to compute neighborhoods
+
+
+
+<div style="text-align:center">
+
+<button class="button-4" style="display:right" onclick="window.location.href='../projects/rapport_seg.pdf'">Report</button>
+</div>
+
+## Edge Detection : Hough Transform and improvements
+- Implementation of the Active Contour Method for image segmentation
+- Implementation of the Hough Transform for line detection
+- New line detection algorithm based on DBScan in pixel-gradient space
+
+<div style="text-align:center">
+<img src="../projects/active_contour.png" style="display:left; margin-left: auto; margin-right: auto;max-width:40%"/>
+<img src="../projects/dbscan.png" style="display:right; margin-left: auto; margin-right: auto;max-width:50%"/>
+</div>
+
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_edge_detection.pdf'">Report</button>
+</div>
+
+
+<img src="XPBD.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="200" height="">
+## Cloth simulation : Mass Spring system & XPBD 
+- Implementation of Mass Spring System
+- Implementation of XPBD
+- Spatial Hasing for fast collision detection
+
+
+## Internship : (failed) Use of Normal information to improve differential operators on polygonal meshes  
+- Various Spline based approaches to provides better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
+
+<div style="text-align:center">
+<img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
+Supervised by David Coeurjolly
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
+</div>
+
+## Ambiant Occlusion & Diffusion Limited Aggregation
+- Quasi Monte Carlo techniques for Ambiant Occlusion on heightfields
+- Improvement of DLA algorithm by simulation brownian motion through a Walk-On-Sphere way and Octree for closest point search
+
+<div style="text-align:center">
+<img src="../projects/DLA.png" style="display:left; margin-left: auto; margin-right: auto;max-width:60%"/>
+<img src="../projects/AO.png" style="display:right; margin-left: auto; margin-right: auto;max-width:37%"/>
+</div>
+
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
+</div>
+
+## Curves & Clouds - A scientific vizualiastion and computing library
+
+A lot a different topics are covered :
+  - standard scientific visualization (1D and 2D plots, points clouds, etc...)
+  - ODE solvers
+  - Dense and Sparse Linear Algebra solvers
+  - ML algorithms (Kmeans, PCA, etc...)
+  - FEM solvers
+  - Quadtree and Delauney Meshing
+  - Semi discrete Optimal Transport
+  - Symbolic Differentiation -> Geodesic equation solver (used for raytracing around black holes)
+  - etc...
+  
+<div style="text-align:center">
+<img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+<img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
+<img src="../projects/poutre.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+</div>
+
+
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
+</div>

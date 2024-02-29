@@ -23,6 +23,9 @@ menu:
     - name: Teaching
       url: "teaching/"
       weight: 3
+    - name: Projects
+      url: "projects/"
+      weight: 4
 
 params:
   description: "A website built through Hugo and blogdown."
