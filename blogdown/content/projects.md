@@ -67,7 +67,7 @@ Supervised by David Coeurjolly and Vincent Nivoliers
 <br>
 
 ## Internship : Use of Normal information to improve differential operators on polygonal meshes  
-- Various Spline based approaches to provides better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
+- Various Spline based approaches to provide better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
  (No conclusive results)
 <div style="text-align:center">
 <img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
