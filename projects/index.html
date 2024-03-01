@@ -69,12 +69,16 @@ margin-right: auto;" alt= “” width="250" height=""></p>
 </div>
 <p><img src="XPBD.png" style="display: block; float:right;
 margin-left: auto;
-margin-right: auto;" alt= “” width="200" height=""></p>
+margin-right: auto;" alt= “” width="300" height=""></p>
 <h2 id="cloth-simulation--mass-spring-system--xpbd">Cloth simulation : Mass Spring System &amp; XPBD</h2>
 <ul>
 <li>Implementation of Mass Spring System</li>
 <li>Implementation of XPBD</li>
-<li>Spatial Hasing for fast collision detection</li>
+<li>Spatial Hasing for fast collision detection
+<br>
+<br>
+<br>
+<br></li>
 </ul>
 <h2 id="internship--use-of-normal-information-to-improve-differential-operators-on-polygonal-meshes">Internship : Use of Normal information to improve differential operators on polygonal meshes</h2>
 <ul>
@@ -114,7 +118,7 @@ Supervised by David Coeurjolly
 <div style="text-align:center">
 <img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 <img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
-<img src="../projects/poutre.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+<img src="../projects/black_hole.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 </div>
 <div style="text-align:center">
 <button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
@@ -137,6 +141,51 @@ $$\Delta u = \nabla \cdot v$$</li>
 <img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
 <img src="../projects/BSPOT_color.png" style="display:right; margin-left: auto; margin-right: auto;max-width:60%"/>
 </div>
+<p><img src="forest_fire.gif" style="display: block; float:right;
+margin-left: auto;
+margin-right: auto;" alt= “” width="350" height=""></p>
+<h2 id="forest-fire-simulation-by-coupled-discrete-stochastic-processes">Forest Fire simulation by coupled discrete stochastic processes</h2>
+<ul>
+<li>Simple discrete model</li>
+<li>Geometric laws of growth.</li>
+<li>Some interesting properties, for instance fire can disappear completely and come back later due to spreading.</li>
+<li>very tunable and upgradable</li>
+</ul>
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
+</div>
+<br>
+<br>
+<p><img src="boat.gif" style="display: block; float:right;
+margin-left: auto;
+margin-right: auto;" alt= “” width="300" height=""></p>
+<h2 id="fluid-solid--cloth-interaction-simulation">Fluid, Solid &amp; Cloth interaction simulation</h2>
+<ul>
+<li>Shallow water model for the fluid</li>
+<li>Mass Spring System for the cloth</li>
+<li>Rigid body dynamics for the boat
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br></li>
+</ul>
+<p><img src="road_gen.png" style="display: block; float:right;
+margin-left: auto;
+margin-right: auto;" alt= “” width="300" height=""></p>
+<h2 id="road-generation">Road Generation</h2>
+<ul>
+<li>A* algorithm for the main track, with weights on the vertices and on the edges to avoid
+height difference</li>
+<li>then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
+$$
+\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
+$$
+with an implicit scheme.</li>
+</ul>
 
 </main>
 
