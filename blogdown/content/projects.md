@@ -5,7 +5,7 @@ title: "Projects"
 
 <div style="text-align:center">
 
-Here is a small selection of my favorite and most polished projects/experiments over the last 4 years.
+Here is a selection of my favorite and most polished projects/experiments over the last 4 years.
 
 Loving Math & Computer Science is an endless source of discoveries and joy. I learned so much with these projects.
 </div>
@@ -192,3 +192,14 @@ with an implicit scheme.
 <img src="../projects/riemann.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
 <img src="../projects/river.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
+
+## Misc :
+Modular knot, inpired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm) 
+<div style="text-align:center">
+<img src="../projects/modular_knot.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+</div>
+Image approximating cellular automata
+<div style="text-align:center">
+<img src="../projects/approximata.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+</div>
+
