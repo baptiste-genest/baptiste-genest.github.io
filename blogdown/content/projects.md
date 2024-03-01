@@ -7,7 +7,7 @@ title: "Projects"
 
 Here is a selection of my favorite and most polished projects/experiments over the last 4 years.
 
-Loving Math & Computer Science is an endless source of discoveries and joy. 
+For me, loving Math & Computer Science is an endless source of discoveries and joy. 
 </div>
 
 ##  "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
