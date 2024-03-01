@@ -100,3 +100,15 @@ A lot a different topics are covered :
 <div style="text-align:center">
 <button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
 </div>
+
+<img src="stable_fluids.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="250" height="">
+## Stable Fluids implementation   
+Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/Stam%20J.,%20Stable%20fluids.pdf) implementation :
+  - Diffusion
+  - Semi-Lagrangian advection
+  - Projection method with prefactored sparse laplacian matrix for poisson problem 
+  $$\Delta u = \nabla \cdot v$$
+  - etc...
+<div style="text-align:center">
