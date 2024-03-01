@@ -48,12 +48,15 @@ Supervised by David Coeurjolly and Vincent Nivoliers
 
 <img src="XPBD.png" style="display: block; float:right;
            margin-left: auto;
-           margin-right: auto;" alt= “” width="200" height="">
+           margin-right: auto;" alt= “” width="300" height="">
 ## Cloth simulation : Mass Spring System & XPBD 
 - Implementation of Mass Spring System
 - Implementation of XPBD
 - Spatial Hasing for fast collision detection
-
+<br>
+<br>
+<br>
+<br>
 
 ## Internship : Use of Normal information to improve differential operators on polygonal meshes  
 - Various Spline based approaches to provides better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
@@ -93,7 +96,7 @@ A lot a different topics are covered :
 <div style="text-align:center">
 <img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 <img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
-<img src="../projects/poutre.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+<img src="../projects/black_hole.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 </div>
 
 
@@ -120,3 +123,46 @@ Computes very fast (in quasilinear time) an assignation that is a good approxima
 <img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
 <img src="../projects/BSPOT_color.png" style="display:right; margin-left: auto; margin-right: auto;max-width:60%"/>
 </div>
+
+<img src="forest_fire.gif" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="350" height="">
+## Forest Fire simulation by coupled discrete stochastic processes
+
+- Simple discrete model
+- Geometric laws of growth.
+- Some interesting properties, for instance fire can disappear completely and come back later due to spreading. 
+- very tunable and upgradable
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
+</div>
+<br>
+<br>
+
+<img src="boat.gif" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="300" height="">
+## Fluid, Solid & Cloth interaction simulation
+- Shallow water model for the fluid
+- Mass Spring System for the cloth
+- Rigid body dynamics for the boat
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="road_gen.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="300" height="">
+## Road Generation
+- A* algorithm for the main track, with weights on the vertices and on the edges to avoid
+height difference
+- then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
+$$
+\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
+$$
+with an implicit scheme.
