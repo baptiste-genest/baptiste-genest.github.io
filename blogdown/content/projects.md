@@ -49,7 +49,7 @@ Supervised by David Coeurjolly and Vincent Nivoliers
 <img src="XPBD.png" style="display: block; float:right;
            margin-left: auto;
            margin-right: auto;" alt= “” width="200" height="">
-## Cloth simulation : Mass Spring system & XPBD 
+## Cloth simulation : Mass Spring System & XPBD 
 - Implementation of Mass Spring System
 - Implementation of XPBD
 - Spatial Hasing for fast collision detection
@@ -66,7 +66,7 @@ Supervised by David Coeurjolly
 
 ## Ambiant Occlusion & Diffusion Limited Aggregation
 - Quasi Monte Carlo techniques for Ambiant Occlusion on heightfields
-- Improvement of DLA algorithm by simulation brownian motion through a Walk-On-Sphere way and Octree for closest point search
+- Improvement of DLA algorithm by simulating brownian motion in a Walk-On-Sphere way and Octree for closest point search
 
 <div style="text-align:center">
 <img src="../projects/DLA.png" style="display:left; margin-left: auto; margin-right: auto;max-width:60%"/>
@@ -112,9 +112,9 @@ Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/St
   $$\Delta u = \nabla \cdot v$$
   - etc...
 
-## BSPOT
+## BSP-OT
 
-Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)) It works really well when the optimality is not as important as speed such as color in transfer.
+Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)) It works really well when the optimality is not as important as speed such as in color transfer.
 
 <div style="text-align:center">
 <img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
