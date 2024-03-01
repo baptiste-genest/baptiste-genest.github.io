@@ -153,8 +153,7 @@ Computes very fast (in quasilinear time) an assignation that is a good approxima
 - Shallow water model for the fluid
 - Mass Spring System for the cloth
 - Rigid body dynamics for the boat
-<br>
-<br>
+- (Shitty) Custom 3D rasterization engine for rendering
 <br>
 <br>
 <br>
@@ -173,3 +172,23 @@ $$
 \mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
 $$
 with an implicit scheme.
+
+## Road Generation
+- A* algorithm for the main track, with weights on the vertices and on the edges to avoid
+height difference
+- then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
+$$
+\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
+$$
+with an implicit scheme.
+
+## Simple raytracer/sphere-tracer
+- raytracing for mesh and bezier surfaces
+- sphere tracing for SDF modeling
+- basic procedural generation
+
+<div style="text-align:center">
+<img src="../projects/utah.jpg" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/riemann.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/river.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+</div>
