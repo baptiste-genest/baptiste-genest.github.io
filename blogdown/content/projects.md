@@ -7,7 +7,7 @@ title: "Projects"
 
 Here is a selection of my favorite and most polished projects/experiments over the last 4 years.
 
-Loving Math & Computer Science is an endless source of discoveries and joy. I learned so much with these projects.
+Loving Math & Computer Science is an endless source of discoveries and joy. 
 </div>
 
 ##  "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
@@ -185,7 +185,7 @@ with an implicit scheme.
 </div>
 
 ## Misc :
-Modular knot, inpired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm) 
+Modular knot, inspired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm) 
 <div style="text-align:center">
 <img src="../projects/modular_knot.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
