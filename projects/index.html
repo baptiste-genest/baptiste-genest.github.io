@@ -188,16 +188,6 @@ $$
 $$
 with an implicit scheme.</li>
 </ul>
-<h2 id="road-generation-1">Road Generation</h2>
-<ul>
-<li>A* algorithm for the main track, with weights on the vertices and on the edges to avoid
-height difference</li>
-<li>then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
-$$
-\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
-$$
-with an implicit scheme.</li>
-</ul>
 <h2 id="simple-raytracersphere-tracer">Simple raytracer/sphere-tracer</h2>
 <ul>
 <li>raytracing for mesh and bezier surfaces</li>
