@@ -1,6 +1,14 @@
 ---
 title: "Projects"
+
 ---
+
+<div style="text-align:center">
+
+Here is a small selection of my favorite and most polished projects/experiments over the last 4 years.
+
+Loving Math & Computer Science is an endless source of discoveries and joy. I learned so much with these projects.
+</div>
 
 ##  "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
 
@@ -52,7 +60,7 @@ Supervised by David Coeurjolly and Vincent Nivoliers
 ## Cloth simulation : Mass Spring System & XPBD 
 - Implementation of Mass Spring System
 - Implementation of XPBD
-- Spatial Hasing for fast collision detection
+- Spatial Hashing for fast collision detection
 <br>
 <br>
 <br>
@@ -113,11 +121,10 @@ Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/St
   - Semi-Lagrangian advection
   - Projection method with prefactored sparse laplacian matrix for poisson problem 
   $$\Delta u = \nabla \cdot v$$
-  - etc...
 
 ## BSP-OT
 
-Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)) It works really well when the optimality is not as important as speed such as in color transfer.
+Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)). It works really well when the optimality is not as important as speed such as in color transfer.
 
 <div style="text-align:center">
 <img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
