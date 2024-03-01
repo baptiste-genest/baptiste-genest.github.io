@@ -173,15 +173,6 @@ $$
 $$
 with an implicit scheme.
 
-## Road Generation
-- A* algorithm for the main track, with weights on the vertices and on the edges to avoid
-height difference
-- then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
-$$
-\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
-$$
-with an implicit scheme.
-
 ## Simple raytracer/sphere-tracer
 - raytracing for mesh and bezier surfaces
 - sphere tracing for SDF modeling
