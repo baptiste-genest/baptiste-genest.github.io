@@ -166,9 +166,8 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <ul>
 <li>Shallow water model for the fluid</li>
 <li>Mass Spring System for the cloth</li>
-<li>Rigid body dynamics for the boat
-<br>
-<br>
+<li>Rigid body dynamics for the boat</li>
+<li>(Shitty) Custom 3D rasterization engine for rendering
 <br>
 <br>
 <br>
@@ -189,6 +188,27 @@ $$
 $$
 with an implicit scheme.</li>
 </ul>
+<h2 id="road-generation-1">Road Generation</h2>
+<ul>
+<li>A* algorithm for the main track, with weights on the vertices and on the edges to avoid
+height difference</li>
+<li>then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
+$$
+\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
+$$
+with an implicit scheme.</li>
+</ul>
+<h2 id="simple-raytracersphere-tracer">Simple raytracer/sphere-tracer</h2>
+<ul>
+<li>raytracing for mesh and bezier surfaces</li>
+<li>sphere tracing for SDF modeling</li>
+<li>basic procedural generation</li>
+</ul>
+<div style="text-align:center">
+<img src="../projects/utah.jpg" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/riemann.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/river.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+</div>
 
 </main>
 
