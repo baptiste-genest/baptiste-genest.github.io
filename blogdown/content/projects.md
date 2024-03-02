@@ -167,11 +167,11 @@ Computes very fast (in quasilinear time) an assignation that is a good approxima
 ## Road Generation
 - A* algorithm for the main track, with weights on the vertices and on the edges to avoid
 height difference
-- then, to get closer to a clothoïd, since they have affine curvature, I use a crude approximation by minimizing the energy :
+- then, to get closer to a clothoïd, since they have affine curvature, I minimizing the second derivative of the curvature by minimizing:
 $$
 \mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
 $$
-with an implicit scheme.
+with an implicit scheme, where the curve is re-parametrized by arc-length at each iteration to have : $$||\ddot{\gamma}|| = \kappa$$.
 
 ## Simple raytracer/sphere-tracer
 - raytracing for mesh and bezier surfaces
