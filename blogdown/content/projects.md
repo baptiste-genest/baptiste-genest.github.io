@@ -9,15 +9,14 @@ Here is a selection of my favorite and most polished projects/experiments over t
 
 </div>
 
-##  4th year research project  : "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
-
+## "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
+4th year research project supervised by David Coeurjolly and Vincent Nivoliers
 - Exploration of stochastic techniques in estimating the volume and barycenters of Voronoi cells in high dimension
 - Improvement of Monte Carlo integration by control variate techniques, new control variate proposed
 - Caracterization and proofs of domination of the new control variate over the original control variate
 
 <div style="text-align:center">
 <img src="../projects/vorayce.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-Supervised by David Coeurjolly and Vincent Nivoliers
 <button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button>
 </div>
 
@@ -137,7 +136,7 @@ Computes very fast (in quasilinear time) an assignation that is a good approxima
 
 - Simple discrete model
 - Geometric laws of growth.
-- Some interesting properties, for instance fire can disappear completely and come back later due to spreading. 
+- Some interesting properties, for instance fire can disappear completely from a tree and come back later due to spreading. 
 - very tunable and upgradable
 <div style="text-align:center">
 <button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
