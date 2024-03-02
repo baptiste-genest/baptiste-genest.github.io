@@ -7,10 +7,9 @@ title: "Projects"
 
 Here is a selection of my favorite and most polished projects/experiments over the last 4 years.
 
-For me, loving Math & Computer Science is an endless source of discoveries and joy. 
 </div>
 
-##  "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
+##  4th year research project  : "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
 
 - Exploration of stochastic techniques in estimating the volume and barycenters of Voronoi cells in high dimension
 - Improvement of Monte Carlo integration by control variate techniques, new control variate proposed
