@@ -19,7 +19,7 @@
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/</guid>
-      <description>Here is a selection of my favorite and most polished projects/experiments over the last 4 years.&#xA;&amp;ldquo;Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering&amp;rdquo; 4th year research project supervised by David Coeurjolly and Vincent Nivoliers&#xA;Exploration of stochastic techniques in estimating the volume and barycenters of Voronoi cells in high dimension Improvement of Monte Carlo integration by control variate techniques, new control variate proposed Caracterization and proofs of domination of the new control variate over the original control variate Report (french) Image Segmentation : Region Growing and Split and Merge Algorithms Region Growing : use of more various metric (Wasserstein distance between histograms, Mahalanobis distance, Lp norms) to compare regions Efficient Split and Merge implementation using a quadtree structure and binary encoding to compute neighborhoods Report</description>
+      <description>Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).&#xA;BSP-OT Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been published). It works really well when the optimality is not as important as speed such as in color transfer.</description>
     </item>
     <item>
       <title>Publications</title>
