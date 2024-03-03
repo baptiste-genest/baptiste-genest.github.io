@@ -5,9 +5,47 @@ title: "Projects"
 
 <div style="text-align:center">
 
-Here is a selection of my favorite and most polished projects/experiments over the last 4 years.
+Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).
 
 </div>
+
+## BSP-OT
+
+Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)). It works really well when the optimality is not as important as speed such as in color transfer.
+
+<div style="text-align:center">
+<img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
+<img src="../projects/BSPOT_color.png" style="display:right; margin-left: auto; margin-right: auto;max-width:60%"/>
+</div>
+
+<img src="forest_fire.gif" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="350" height="">
+## Forest Fire simulation by coupled discrete stochastic processes
+
+- Simple discrete model
+- Geometric laws of growth.
+- Some interesting properties, for instance fire can disappear completely from a tree and come back later due to spreading. 
+- very tunable and upgradable
+<div style="text-align:center">
+<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
+</div>
+<br>
+<br>
+
+<img src="road_gen.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="300" height="">
+## Road Generation
+- A* algorithm for the main track, with weights on the vertices and on the edges to avoid
+height difference
+- then, to get closer to a clothoïd, since they have affine curvature, I minimizing the second derivative of the curvature by minimizing:
+$$
+\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
+$$
+with an implicit scheme, where the curve is re-parametrized by arc-length at each iteration to have : $$||\ddot{\gamma}|| = \kappa$$.
+
+
 
 ## "Estimation of the volume of Voronoi cells in high dimension and control variables in Monte Carlo rendering"
 4th year research project supervised by David Coeurjolly and Vincent Nivoliers
@@ -51,6 +89,15 @@ Here is a selection of my favorite and most polished projects/experiments over t
 <button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_edge_detection.pdf'">Report</button>
 </div>
 
+<img src="stable_fluids.png" style="display: block; float:right;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="250" height="">
+## Stable Fluids implementation   
+Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/Stam%20J.,%20Stable%20fluids.pdf) implementation :
+  - Diffusion
+  - Semi-Lagrangian advection
+  - Projection method with prefactored sparse laplacian matrix for poisson problem 
+  $$\Delta u = \nabla \cdot v$$
 
 <img src="XPBD.png" style="display: block; float:right;
            margin-left: auto;
@@ -64,14 +111,6 @@ Here is a selection of my favorite and most polished projects/experiments over t
 <br>
 <br>
 
-## Internship : Use of Normal information to improve differential operators on polygonal meshes  
-- Various Spline based approaches to provide better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
- (No conclusive results)
-<div style="text-align:center">
-<img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-Supervised by David Coeurjolly
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
-</div>
 
 ## Ambiant Occlusion & Diffusion Limited Aggregation
 - Quasi Monte Carlo techniques for Ambiant Occlusion on heightfields
@@ -85,6 +124,16 @@ Supervised by David Coeurjolly
 <div style="text-align:center">
 <button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
 </div>
+
+## Use of Normal information to improve differential operators on polygonal meshes  
+1 month research internship supervised by David Coeurjolly.
+- Various Spline based approaches to provide better estimates of non-linear edges in order improve the convergence of discretizations of differential operators based on [Fernando De Goes et al.](https://graphics.pixar.com/library/PolyDDG/paper.pdf)
+ (No conclusive results)
+<div style="text-align:center">
+<img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
+<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
+</div>
+
 
 ## Curves & Clouds - A scientific visualization and computing library
 
@@ -110,39 +159,19 @@ A lot a different topics are covered :
 <button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
 </div>
 
-<img src="stable_fluids.png" style="display: block; float:right;
-           margin-left: auto;
-           margin-right: auto;" alt= “” width="250" height="">
-## Stable Fluids implementation   
-Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/Stam%20J.,%20Stable%20fluids.pdf) implementation :
-  - Diffusion
-  - Semi-Lagrangian advection
-  - Projection method with prefactored sparse laplacian matrix for poisson problem 
-  $$\Delta u = \nabla \cdot v$$
 
-## BSP-OT
-
-Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been [published](https://arxiv.org/abs/1912.02317)). It works really well when the optimality is not as important as speed such as in color transfer.
+## Simple raytracer/sphere-tracer
+- raytracing for mesh and bezier surfaces
+- sphere tracing for SDF modeling
+- basic procedural generation
 
 <div style="text-align:center">
-<img src="../projects/BSPOT_plan.png" style="display:left; margin-left: auto; margin-right: auto;max-width:35%"/>
-<img src="../projects/BSPOT_color.png" style="display:right; margin-left: auto; margin-right: auto;max-width:60%"/>
+<img src="../projects/utah.jpg" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/riemann.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/river.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
 
-<img src="forest_fire.gif" style="display: block; float:right;
-           margin-left: auto;
-           margin-right: auto;" alt= “” width="350" height="">
-## Forest Fire simulation by coupled discrete stochastic processes
 
-- Simple discrete model
-- Geometric laws of growth.
-- Some interesting properties, for instance fire can disappear completely from a tree and come back later due to spreading. 
-- very tunable and upgradable
-<div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
-</div>
-<br>
-<br>
 
 <img src="boat.gif" style="display: block; float:right;
            margin-left: auto;
@@ -157,30 +186,6 @@ Computes very fast (in quasilinear time) an assignation that is a good approxima
 <br>
 <br>
 <br>
-<br>
-
-<img src="road_gen.png" style="display: block; float:right;
-           margin-left: auto;
-           margin-right: auto;" alt= “” width="300" height="">
-## Road Generation
-- A* algorithm for the main track, with weights on the vertices and on the edges to avoid
-height difference
-- then, to get closer to a clothoïd, since they have affine curvature, I minimizing the second derivative of the curvature by minimizing:
-$$
-\mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
-$$
-with an implicit scheme, where the curve is re-parametrized by arc-length at each iteration to have : $$||\ddot{\gamma}|| = \kappa$$.
-
-## Simple raytracer/sphere-tracer
-- raytracing for mesh and bezier surfaces
-- sphere tracing for SDF modeling
-- basic procedural generation
-
-<div style="text-align:center">
-<img src="../projects/utah.jpg" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
-<img src="../projects/riemann.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
-<img src="../projects/river.jpg" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
-</div>
 
 ## Misc :
 Modular knot, inspired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm) 
