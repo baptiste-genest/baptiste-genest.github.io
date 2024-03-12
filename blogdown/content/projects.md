@@ -188,9 +188,13 @@ A lot a different topics are covered :
 <br>
 
 ## Misc :
-Modular knot, inspired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm) 
+Modular knot, inspired by the amazing article of [Etienne Ghys & Jos Leys](https://www.josleys.com/articles/ams_article/Lorenz3.htm). I will probably write a blog post or do a video about it because it was an amazing 4 year long journey where I often came back to improve the computations gradually. 
+<div style="text-align:center">
+Version 2020  -------------------------------- Version 2024
+</div>
 <div style="text-align:center">
 <img src="../projects/modular_knot.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/modular_knot_24.png" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
 Image approximating cellular automata
 <div style="text-align:center">
@@ -198,6 +202,7 @@ Image approximating cellular automata
 </div>
 Procedural tree generation
 <div style="text-align:center">
+
 <img src="../projects/tree.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
 
