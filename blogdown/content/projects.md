@@ -146,12 +146,18 @@ A lot a different topics are covered :
   - Quadtree and Delauney Meshing
   - Semi discrete Optimal Transport
   - Symbolic Differentiation -> Geodesic equation solver (used for raytracing around black holes)
+  - Discrete Differential Geometry (Heat Geodesic Method, curvatures...)
   - etc...
   
 <div style="text-align:center">
 <img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 <img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
 <img src="../projects/black_hole.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+</div>
+<div style="text-align:center">
+<img src="../projects/heat_geodesic_method.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/curvy_rabbit.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/quadtree_meshing.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
 </div>
 
 
