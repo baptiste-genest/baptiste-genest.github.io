@@ -155,9 +155,9 @@ A lot a different topics are covered :
 <img src="../projects/black_hole.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 </div>
 <div style="text-align:center">
-<img src="../projects/heat_geodesic_method.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
-<img src="../projects/curvy_rabbit.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
-<img src="../projects/quadtree_meshing.png" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/heat_geodesic_method.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
+<img src="../projects/curvy_rabbit.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
+<img src="../projects/quadtree_meshing.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
 </div>
 
 
