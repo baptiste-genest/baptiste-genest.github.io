@@ -26,7 +26,14 @@
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publications/</guid>
-      <description>Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly&#xA;PDF CODE Copy BibTeX</description>
+      <description>Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly&#xA;Günter Enderle Award for Best Paper PDF CODE Copy BibTeX</description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/talks/</guid>
+      <description>In french :&#xA;Introduction to Energy Methods : notebook Vector field synthesis, presentation of Discrete Connections and Vector Heat Method : pdf video Approximate convex decomposition, presentation of Approximate Convex Decomposition for 3D Meshes with Collision-Aware Concavity and Tree Search : pdf Introduction to applied Math : pdf Defense of the Voronoï integration project : notebook Introduction to stochastic calculus and applications to mesh-less PDEs : notebook In english :</description>
     </item>
     <item>
       <title>Teaching</title>

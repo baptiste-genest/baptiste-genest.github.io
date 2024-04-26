@@ -21,6 +21,8 @@
       
       <li><a href="/projects/">Projects</a></li>
       
+      <li><a href="/talks/">Talks</a></li>
+      
     </ul>
     <hr/>
     </nav>
@@ -63,7 +65,7 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <ul>
 <li>A* algorithm for the main track, with weights on the vertices and on the edges to avoid
 height difference</li>
-<li>then, to get closer to a clothoïd, since they have affine curvature, I minimizing the second derivative of the curvature by minimizing:
+<li>then, to get closer to a clothoïd, since they have affine curvature, I minimize the second derivative of the curvature by minimizing:
 $$
 \mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
 $$
@@ -161,12 +163,18 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <li>Quadtree and Delauney Meshing</li>
 <li>Semi discrete Optimal Transport</li>
 <li>Symbolic Differentiation -&gt; Geodesic equation solver (used for raytracing around black holes)</li>
+<li>Discrete Differential Geometry (Heat Geodesic Method, curvatures&hellip;)</li>
 <li>etc&hellip;</li>
 </ul>
 <div style="text-align:center">
 <img src="../projects/eigen_laplace.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
 <img src="../projects/wave.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:37%"/>
 <img src="../projects/black_hole.png" style="display:left; margin-left: auto; margin-right: auto;max-width:30%"/>
+</div>
+<div style="text-align:center">
+<img src="../projects/heat_geodesic_method.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
+<img src="../projects/curvy_rabbit.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
+<img src="../projects/quadtree_meshing.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
 </div>
 <div style="text-align:center">
 <button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
@@ -198,17 +206,28 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <br></li>
 </ul>
 <h2 id="misc-">Misc :</h2>
-<p>Modular knot, inspired by the amazing article of <a href="https://www.josleys.com/articles/ams_article/Lorenz3.htm">Etienne Ghys &amp; Jos Leys</a></p>
 <div style="text-align:center">
+</div>
+<div style="text-align:center">
+<figure>
 <img src="../projects/modular_knot.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<img src="../projects/modular_knot_24.png" style="display:right; margin-left: auto; margin-right: auto;max-width:33%"/>
+<figcaption>
+Version 2020  --------------------------------- Version 2024
+<p>Modular knots, inspired by the amazing article of <a href="(https://www.josleys.com/articles/ams_article/Lorenz3.htm)">Etienne Ghys &amp; Jos Leys</a>. I will probably write a blog post or do a video about it because it was an amazing 4 year long journey where I often came back to improve the computations gradually. </figcaption></p>
+</figure>
 </div>
-Image approximating cellular automata
 <div style="text-align:center">
+<figure>
 <img src="../projects/approximata.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+  <figcaption>Image approximating cellular automata</figcaption>
+</figure>
 </div>
-Procedural tree generation
 <div style="text-align:center">
+<figure>
 <img src="../projects/tree.gif" style="display:left; margin-left: auto; margin-right: auto;max-width:33%"/>
+<figcaption>Procedural tree generation</figcaption>
+</figure>
 </div>
 
 </main>
