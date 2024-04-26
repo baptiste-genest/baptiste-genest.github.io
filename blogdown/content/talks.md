@@ -1,5 +1,5 @@
 ---
-title: "Talks / Reports"
+title: "Talks"
 ---
 <div style="text-align:center">
 
@@ -21,4 +21,3 @@ In english :
 </div>
 
 - *Tutorial on Stable Fluids* : [notebook](./stable_fluids.zip)
-- *Report on the article : "Computing minimal surfaces using differential forms"* : [report](./mini_surf.pdf)

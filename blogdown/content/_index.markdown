@@ -2,7 +2,7 @@
 title: 
 ---
 
-[<img src="batou2.jpg" style="max-width:30%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/eulerson314)
+[<img src="batou2.jpg" style="max-width:30%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/baptiste-genest)
 
 <br><br>
 
