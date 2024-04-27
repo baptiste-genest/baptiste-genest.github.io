@@ -11,6 +11,11 @@ title:
 <div style="text-align: center;"> baptiste.genest@etu.univ-lyon1.fr </div>
 
 <br><br>
+
+<h1><u>News</u></h1>
+
+(26/04/24) We received the "<span style="color:red">Günter Enderle Award for best paper</span>" for our article [NESOTS](./publications/)!
+
 <h1><u>Education</u></h1>
 
 - 2019-2022 **Licence Major CS Minor Math - Université Lyon 1** 1/20 (among "bi-licence" CS/Math students)

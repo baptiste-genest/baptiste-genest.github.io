@@ -12,9 +12,8 @@ function copyBib(bib) {
 }
 </script>
 
-## Non-Euclidean Sliced Optimal Transport Sampling
-*Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly* 
-<p style="color:red"> Günter Enderle Award for Best Paper </p>
+## Non-Euclidean Sliced Optimal Transport Sampling 
+*Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly* - <span style="color:red"> Günter Enderle Award for Best Paper </span>
 
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
