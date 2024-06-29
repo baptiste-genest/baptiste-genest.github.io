@@ -28,12 +28,13 @@ title:
 
 - *Research Internship* : Summer 23 - with David Coeurjolly - "Non Euclidean Sliced Optimal Transport" -> [NESOTS paper](./publications/)
 
-- *Research Internship* : April to September 24 - **Adobe** Lyon  
+- *Research Internship* : April to September 24 - **Adobe** - Lyon office  
 
 <h1><u> Conferences</u></h1>
 
 - Attendee : SGP 22 (remote)
 - Attendee : SGP 23
+- Presentation : EG 24
 
 ## Topics I am interested in : 
 - Geometry Processing
