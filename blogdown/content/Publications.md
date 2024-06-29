@@ -15,6 +15,8 @@ function copyBib(bib) {
 ## Non-Euclidean Sliced Optimal Transport Sampling 
 *Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly* - <span style="color:red"> Günter Enderle Award for Best Paper </span>
 
+[Graphics Replicability Stamp](https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots)
+
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
@@ -22,4 +24,5 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">VIDEO</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">CODE</button>
 <button class="button-4" role="button" onclick="copyBib(nesots_bib)">Copy BibTeX</button>
+<button class="button-4" onclick="window.location.href='../papers/erratum_nesots.pdf'">Erratum</button>
 </div>
