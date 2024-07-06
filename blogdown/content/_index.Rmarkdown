@@ -14,7 +14,7 @@ title:
 
 <h1><u>News</u></h1>
 
-(26/04/24) We received the "<span style="color:red">Günter Enderle Award for best paper</span>" for our article [NESOTS](./publications/)!
+(26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/)!
 
 <h1><u>Education</u></h1>
 
