@@ -7,7 +7,7 @@ title:
 <br><br>
 
 <h1 style="text-align: center;"> Baptiste GENEST </h1>
-<h3 style="text-align: center;"> <i>French Graduate student in Applied Mathematics</i> </h3>
+<h3 style="text-align: center;"> <i>French Master student in Applied Mathematics</i> </h3>
 <div style="text-align: center;"> baptiste.genest@etu.univ-lyon1.fr </div>
 
 <br><br>
