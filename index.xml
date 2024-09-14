@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Baptiste GENEST website</title>
+    <title>Baptiste Genest website</title>
     <link>/</link>
-    <description>Recent content on Baptiste GENEST website</description>
+    <description>Recent content on Baptiste Genest website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
@@ -26,7 +26,7 @@
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publications/</guid>
-      <description>Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly&#xA;PDF CODE Copy BibTeX</description>
+      <description> Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly&#xA;Günter Enderle Award for the Best Paper PDF VIDEO CODE Copy BibTeX Erratum Replicability Stamp </description>
     </item>
     <item>
       <title>Talks / Reports</title>
