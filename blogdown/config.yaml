@@ -1,6 +1,7 @@
 baseurl: "/"
 languageCode: "en-us"
-title: "Baptiste GENEST website"
+title: "Baptiste Genest website"
+author: "Baptiste Genest"
 theme: "hugo-xmin"
 googleAnalytics: ""
 disqusShortname: ""
@@ -31,7 +32,7 @@ menu:
       weight: 5
 
 params:
-  description: "A website built through Hugo and blogdown."
+  description: "Personal webpage of Baptiste Genest."
   footer: "[Github](https://github.com/baptiste-genest) | [Twitter](https://twitter.com/Eulerson314) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
 
 markup:
