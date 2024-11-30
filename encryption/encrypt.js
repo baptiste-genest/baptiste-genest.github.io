@@ -28,8 +28,8 @@ function hashCode(str) {
 }
 
 function attemptDecodeToken(password) {
+  console.log("attempt decode token with password:" + password);
   var encoded = BigInt("164423740064328");
   var rslt = "60e9401f-15a8-448f-ac4a-" + xor64bit(BigInt("0x"+asciiToHex(password)),encoded).toString(16);
-  console.log("decoded token attempt " + rslt);
   return rslt;
 }
