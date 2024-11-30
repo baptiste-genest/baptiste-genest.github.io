@@ -17,7 +17,9 @@ title:
 (26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/)!
 
 <h1><u>Education</u></h1>
+
 - 23-24 **Master 2 "Maths en Action"** (Research in Applied Math)
+
 - 22-23 **Master 1 Computer Science - Université Lyon 1** 1/70 + **4 Applied Math Courses Master 1** 2/30
 - 2019-2022 **Licence Major CS Minor Math - Université Lyon 1** 1/20 (among "bi-licence" CS/Math students)
 
