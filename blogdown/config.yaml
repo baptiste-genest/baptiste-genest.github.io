@@ -31,6 +31,9 @@ menu:
     - name: Talks
       url: "talks/"
       weight: 5
+    - name: Toffee
+      url: "toffee/"
+      weight: 6
 
 params:
   description: "Personal webpage of Baptiste Genest."
