@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Toffee | Baptiste Genest website</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+      <li><a href="/">About</a></li>
+      
+      <li><a href="/publications/">Publications</a></li>
+      
+      <li><a href="/teaching/">Teaching</a></li>
+      
+      <li><a href="/projects/">Projects</a></li>
+      
+      <li><a href="/talks/">Talks</a></li>
+      
+      <li><a href="/toffee/">Toffee</a></li>
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title">Toffee</span></h1>
+
+
+</div>
+
+<main>
+<div style="text-align:center">
+<p>A random Toffee picture to brighten your day.</p>
+<img id="randomImage" alt="Image aléatoire" style="height: 500px; object-fit: contain; border: 5px solid #ccc; border-radius: 10px;">
+<p><button id="loadImageButton">ANOTHER ONE</button></p>
+<script>
+
+    // Sélection d'une image aléatoire
+    function loadRandomImage() {
+        const randomIndex = Math.floor(Math.random() * 17)+1;
+        const randomImagePath = "../toffee/image" + randomIndex+".jpg";
+        // Affichage de l'image
+        document.getElementById('randomImage').src = randomImagePath;
+    }
+    loadRandomImage();
+    document.getElementById('loadImageButton').addEventListener('click', loadRandomImage);
+</script>
+<p></script></p>
+
+</main>
+
+  <footer>
+  <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
+
+<script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+
+  
+  <hr/>
+  <a href="https://github.com/baptiste-genest">Github</a> | <a href="https://twitter.com/Eulerson314">Twitter</a> | Hugo Theme by <a href="https://yihui.org/">Yihui Xie</a>
+  
+  </footer>
+  </body>
+</html>
+
