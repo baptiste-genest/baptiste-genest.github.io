@@ -205,7 +205,7 @@ A lot a different topics are covered :
 Version 2020  --------------------------------- Version 2024
 
 
-Modular knots, inspired by the amazing article of <a href="(https://www.josleys.com/articles/ams_article/Lorenz3.htm)">Etienne Ghys & Jos Leys</a>. I will probably write a blog post or do a video about it because it was an amazing 4 year long journey where I often came back to improve the computations gradually. </figcaption>
+Modular knots, inspired by the amazing article of <a href="https://www.josleys.com/articles/ams_article/Lorenz3.htm">Etienne Ghys & Jos Leys</a>. I will probably write a blog post or do a video about it because it was an amazing 4 year long journey where I often came back to improve the computations gradually. </figcaption>
 </figure>
 </div>
 <div style="text-align:center">
