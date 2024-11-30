@@ -1,21 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>/</loc>
-  </url><url>
-    <loc>/about/</loc>
-  </url><url>
-    <loc>/categories/</loc>
-  </url><url>
-    <loc>/projects/</loc>
-  </url><url>
-    <loc>/publications/</loc>
-  </url><url>
-    <loc>/tags/</loc>
-  </url><url>
-    <loc>/talks/</loc>
-  </url><url>
-    <loc>/teaching/</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://baptiste-genest.github.io/</loc>
+  <lastmod>2024-10-20T16:30:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://baptiste-genest.github.io/publications/</loc>
+  <lastmod>2024-10-20T16:30:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://baptiste-genest.github.io/teaching/</loc>
+  <lastmod>2024-10-20T16:30:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://baptiste-genest.github.io/projects/</loc>
+  <lastmod>2024-10-20T16:30:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://baptiste-genest.github.io/talks/</loc>
+  <lastmod>2024-10-20T16:30:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
