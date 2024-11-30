@@ -16,7 +16,7 @@ A random Toffee picture to brighten your day.
     // Sélection d'une image aléatoire
     function loadRandomImage() {
         const randomIndex = Math.floor(Math.random() * 18)+1;
-        const randomImagePath = "../toffee/image" + randomIndex+".jpg";
+        const randomImagePath = "../toffee/toffee_" + randomIndex+".jpg";
         // Affichage de l'image
         document.getElementById('randomImage').src = randomImagePath;
     }
