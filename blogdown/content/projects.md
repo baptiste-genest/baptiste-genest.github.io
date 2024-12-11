@@ -46,7 +46,7 @@ $$
 where tau is the stopping time of a Brownian motion, coming from infinity, touching X_n, the DLA at stage n. Such computation is performed on a discrete grid as the fixpoint of the markov chain transition matrix with uniform diffusion except around the boundary of the DLA where the particles are stuck. The next stage of the DLA is computed as:
 
 $$
-X^{n+1} = X^n \cup \bigcup_{i = 1}^{\sqrt{n}} Y_i, \text{ where } Y_i \sim f_n
+X_{n+1} = X_n \cup \bigcup_{i = 1}^{\sqrt{n}} Y_i, \text{ where } Y_i \sim f_n
 $$
 
 ## BSP-OT
