@@ -71,7 +71,7 @@ f_n(x) = \mathbb{P}\left(B_{\tau_n} = x \in \partial X_n | \tau_n &lt; \infty \r
 $$
 where tau is the stopping time of a Brownian motion, coming from infinity, touching X_n, the DLA at stage n. Such computation is performed on a discrete grid as the fixpoint of the markov chain transition matrix with uniform diffusion except around the boundary of the DLA where the particles are stuck. The next stage of the DLA is computed as:</p>
 <p>$$
-X^{n+1} = X^n \cup \bigcup_{i = 1}^{\sqrt{n}} Y_i, \text{ where } Y_i \sim f_n
+X_{n+1} = X_n \cup \bigcup_{i = 1}^{\sqrt{n}} Y_i, \text{ where } Y_i \sim f_n
 $$</p>
 <h2 id="bsp-ot">BSP-OT</h2>
 <p>Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been <a href="https://arxiv.org/abs/1912.02317">published</a>). It works really well when the optimality is not as important as speed such as in color transfer.</p>
