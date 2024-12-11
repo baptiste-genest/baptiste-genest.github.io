@@ -6,8 +6,26 @@ title: "Projects"
 <div style="text-align:center">
 
 Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).
-
 </div>
+
+   <video 
+        src="../projects/LBM_small.mp4" 
+        controls 
+        autoplay 
+        muted 
+        loop 
+        style="display: block; float: right; margin-left: auto; margin-right: auto; width: 350px; height: auto;">
+    </video>
+## Lattice Boltzman Method (LBM)
+
+Canonical solver of the LBM in D2Q9.
+
+- Two Relaxation Time (TRT) method for the collision operator.
+- Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{,  } x\in \partial \Omega. $$
+
+Amazing resources: [book](https://link.springer.com/book/10.1007/978-3-319-44649-3) [blog](https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/)
+
+
 
 ## BSP-OT
 
