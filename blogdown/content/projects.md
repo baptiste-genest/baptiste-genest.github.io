@@ -5,7 +5,7 @@ title: "Projects"
 
 <div style="text-align:center">
 
-Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).
+Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).
 </div>
 
    <video 
@@ -14,7 +14,7 @@ Here is a selection of my favorite and most polished projects/experiments over t
         autoplay 
         muted 
         loop 
-        style="display: block; float: right; margin-left: auto; margin-right: auto; width: 350px; height: auto;">
+        style="display: block; float: right; margin-left: auto;margin-bottom: 20px; margin-right: auto; width: 350px; height: auto;">
     </video>
 ## Lattice Boltzman Method (LBM)
 
@@ -23,9 +23,31 @@ Canonical solver of the LBM in D2Q9.
 - Two Relaxation Time (TRT) method for the collision operator.
 - Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{,  } x\in \partial \Omega. $$
 
-Amazing resources: [book](https://link.springer.com/book/10.1007/978-3-319-44649-3) [blog](https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/)
+Curl visualized in blue/red.
+Amazing resources: [book](https://link.springer.com/book/10.1007/978-3-319-44649-3) [blog](https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/).
 
 
+
+   <video 
+        src="../projects/MCDLA.mp4" 
+        controls 
+        autoplay 
+        muted 
+        loop 
+        style="display: block; float: left; margin-left: auto; margin-right: 30px; width: 500px; height: auto;">
+    </video>
+## Markov-Chain Diffusion-Limited-Aggregation (MCDLA)
+
+A Markov Chain interpretation of the DLA process.
+The idea is to replace the individual brownian motion simulation with the computation of the probability:
+$$
+f_n(x) = \mathbb{P}\left(B_{\tau_n} = x \in \partial X_n | \tau_n < \infty \right)
+$$
+where tau is the stopping time of a Brownian motion, coming from infinity, touching X_n, the DLA at stage n. Such computation is performed on a discrete grid as the fixpoint of the markov chain transition matrix with uniform diffusion except around the boundary of the DLA where the particles are stuck. The next stage of the DLA is computed as:
+
+$$
+X^{n+1} = X^n \cup \bigcup_{i = 1}^{\sqrt{n}} Y_i, \text{ where } Y_i \sim f_n
+$$
 
 ## BSP-OT
 
@@ -61,7 +83,7 @@ height difference
 $$
 \mathcal{E}(\gamma) = \int_0^1 ||\gamma^{(4)}(t)||^2 dt
 $$
-with an implicit scheme, where the curve is re-parametrized by arc-length at each iteration to have : $$||\ddot{\gamma}|| = \kappa$$.
+with an implicit scheme, where the curve is re-parametrized by arc-length at each iteration to have : `$$||\ddot{\gamma}|| = \kappa$$`.
 
 
 
@@ -115,7 +137,7 @@ Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/St
   - Diffusion
   - Semi-Lagrangian advection
   - Projection method with prefactored sparse laplacian matrix for poisson problem 
-  $$\Delta u = \nabla \cdot v$$
+  `$$\Delta u = \nabla \cdot v$$`
 
 <img src="XPBD.png" style="display: block; float:right;
            margin-left: auto;
