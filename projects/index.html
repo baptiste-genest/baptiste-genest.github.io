@@ -39,6 +39,21 @@
 <div style="text-align:center">
 <p>Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).</p>
 </div>
+<p><video 
+src="../projects/LBM_small.mp4" 
+controls 
+autoplay 
+muted 
+loop 
+style="display: block; float: right; margin-left: auto; margin-right: auto; width: 350px; height: auto;">
+</video></p>
+<h2 id="lattice-boltzman-method-lbm">Lattice Boltzman Method (LBM)</h2>
+<p>Canonical solver of the LBM in D2Q9.</p>
+<ul>
+<li>Two Relaxation Time (TRT) method for the collision operator.</li>
+<li>Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{,  } x\in \partial \Omega. $$</li>
+</ul>
+<p>Amazing resources: <a href="https://link.springer.com/book/10.1007/978-3-319-44649-3">book</a> <a href="https://nickmcd.me/2022/10/01/procedural-wind-and-clouds-using-gpu-accelerated-lattice-boltzmann-method/">blog</a></p>
 <h2 id="bsp-ot">BSP-OT</h2>
 <p>Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one. (Sadly, it has already been <a href="https://arxiv.org/abs/1912.02317">published</a>). It works really well when the optimality is not as important as speed such as in color transfer.</p>
 <div style="text-align:center">
