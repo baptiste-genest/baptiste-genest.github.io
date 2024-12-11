@@ -19,7 +19,7 @@
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/</guid>
-      <description>Here is a selection of my favorite and most polished projects/experiments over the last 4 and a half years, sorted by period of interest (Most recent first).&#xA;Lattice Boltzman Method (LBM) Canonical solver of the LBM in D2Q9.&#xA;Two Relaxation Time (TRT) method for the collision operator. Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{, } x\in \partial \Omega. $$ Amazing resources: book blog&#xA;BSP-OT Computes very fast (in quasilinear time) an assignation that is a good approximation of the optimal one.</description>
+      <description>Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).&#xA;Lattice Boltzman Method (LBM) Canonical solver of the LBM in D2Q9.&#xA;Two Relaxation Time (TRT) method for the collision operator. Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{, } x\in \partial \Omega. $$ Curl visualized in blue/red. Amazing resources: book blog.&#xA;Markov-Chain Diffusion-Limited-Aggregation (MCDLA) A Markov Chain interpretation of the DLA process.</description>
     </item>
     <item>
       <title>Publications</title>
