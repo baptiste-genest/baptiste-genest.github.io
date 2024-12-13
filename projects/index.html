@@ -45,7 +45,7 @@ controls
 autoplay 
 muted 
 loop 
-style="display: block; float: right; margin-left: auto;margin-bottom: 20px; margin-right: auto; width: 350px; height: auto;">
+style="display: block; float: right; margin-left: auto;margin-bottom: auto; margin-right: auto; width: 350px; height: auto;">
 </video></p>
 <h2 id="lattice-boltzman-method-lbm">Lattice Boltzman Method (LBM)</h2>
 <p>Canonical solver of the LBM in D2Q9.</p>
@@ -61,13 +61,13 @@ controls
 autoplay 
 muted 
 loop 
-style="display: block; float: left; margin-left: auto; margin-right: 30px; width: 500px; height: auto;">
+style="display: block; float: left; margin-bottom: 10px; margin-right: 30px; width: 500px; height: auto;">
 </video></p>
 <h2 id="markov-chain-diffusion-limited-aggregation-mcdla">Markov-Chain Diffusion-Limited-Aggregation (MCDLA)</h2>
 <p>A Markov Chain interpretation of the DLA process.
 The idea is to replace the individual brownian motion simulation with the computation of the probability:
 $$
-f_n(x) = \mathbb{P}\left(B_{\tau_n} = x \in \partial X_n | \tau_n &lt; \infty \right)
+x\in \partial X_n, f_n(x) = \mathbb{P}\left(B_{\tau_n} = x | \tau_n &lt; \infty \right)
 $$
 where tau is the stopping time of a Brownian motion, coming from infinity, touching X_n, the DLA at stage n. Such computation is performed on a discrete grid as the fixpoint of the markov chain transition matrix with uniform diffusion except around the boundary of the DLA where the particles are stuck. The next stage of the DLA is computed as:</p>
 <p>$$
