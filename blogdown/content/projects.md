@@ -14,7 +14,7 @@ Here is a selection of my favorite and most polished projects/experiments over t
         autoplay 
         muted 
         loop 
-        style="display: block; float: right; margin-left: auto;margin-bottom: 20px; margin-right: auto; width: 350px; height: auto;">
+        style="display: block; float: right; margin-left: auto;margin-bottom: auto; margin-right: auto; width: 350px; height: auto;">
     </video>
 ## Lattice Boltzman Method (LBM)
 
@@ -34,14 +34,14 @@ Amazing resources: [book](https://link.springer.com/book/10.1007/978-3-319-44649
         autoplay 
         muted 
         loop 
-        style="display: block; float: left; margin-left: auto; margin-right: 30px; width: 500px; height: auto;">
+        style="display: block; float: left; margin-bottom: 10px; margin-right: 30px; width: 500px; height: auto;">
     </video>
 ## Markov-Chain Diffusion-Limited-Aggregation (MCDLA)
 
 A Markov Chain interpretation of the DLA process.
 The idea is to replace the individual brownian motion simulation with the computation of the probability:
 $$
-f_n(x) = \mathbb{P}\left(B_{\tau_n} = x \in \partial X_n | \tau_n < \infty \right)
+x\in \partial X_n, f_n(x) = \mathbb{P}\left(B_{\tau_n} = x | \tau_n < \infty \right)
 $$
 where tau is the stopping time of a Brownian motion, coming from infinity, touching X_n, the DLA at stage n. Such computation is performed on a discrete grid as the fixpoint of the markov chain transition matrix with uniform diffusion except around the boundary of the DLA where the particles are stuck. The next stage of the DLA is computed as:
 
