@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Tags | Baptiste Genest website</title>
+    <title>Toffee | Baptiste Genest website</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     
@@ -29,12 +29,38 @@
     <hr/>
     </nav>
 
+<div class="article-meta">
+<h1><span class="title">Toffee</span></h1>
 
-<h1>Tags</h1>
 
-<ul class="terms">
-  
-</ul>
+</div>
+
+<main>
+<div style="text-align:center">
+<p>A random Toffee picture to brighten your day.</p>
+<img id="randomImage" alt="Image aléatoire" style="height: 500px; object-fit: contain; border: 5px solid #ccc; border-radius: 10px;">
+<p><button id="loadImageButton">ANOTHER ONE</button></p>
+<script>
+
+    const array = Array.from(Array(25).keys());
+    const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
+    //console.log(shuffledArray);
+    var id = 0;
+    // Sélection d'une image aléatoire
+    function loadRandomImage() {
+        const randomIndex = shuffledArray[id++]+1;//Math.floor(Math.random() * 25)+1;
+        id %= 25;
+        //console.log(randomIndex-1,id);
+        const randomImagePath = "../toffee/toffee_" + randomIndex+".jpg";
+        // Affichage de l'image
+        document.getElementById('randomImage').src = randomImagePath;
+    }
+    loadRandomImage();
+    document.getElementById('loadImageButton').addEventListener('click', loadRandomImage);
+</script>
+<p></script></p>
+
+</main>
 
   <footer>
   <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>

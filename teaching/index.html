@@ -23,6 +23,8 @@
       
       <li><a href="/talks/">Talks</a></li>
       
+      <li><a href="/toffee/">Toffee</a></li>
+      
     </ul>
     <hr/>
     </nav>
@@ -67,11 +69,11 @@ document.getElementById("feedbackForm").addEventListener("submit", function(even
   let feedback = document.getElementById("feedback").value;
   if (hashCode(password) == -868335013){
   Email.send({
-    SecureToken : "4ce2a60f-646a-4078-b0aa-" + attemptDecodeToken(password),
-    To : 'baptiste.genest@etu.univ-lyon1.fr',
-    From : "baptiste.genest@etu.univ-lyon1.fr",
+    SecureToken : attemptDecodeToken(password),
+    To : 'baptistegenest@gmail.com',
+    From : "baptistegenest@gmail.com",
     Subject : "Feedback cours",
-    Body :  feedback,
+    Body :  "Texte tampon pour rallonger le message, vous êtes sacrément beau gosse vous : \n"+feedback,
 }).then(
   message => alert(message)
 );
