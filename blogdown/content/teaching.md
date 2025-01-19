@@ -18,9 +18,10 @@ title: "Teaching"
 
 <br>
 <br>
-<center>
-Nothing <b>yet !</b>
-</center>
+
+- 2025 : 
+  - [LIFAPC](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/) (printemps) : chargé de TD 
+
 
 <form id="feedbackForm">
   
