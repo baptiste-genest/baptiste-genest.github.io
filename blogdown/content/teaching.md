@@ -21,6 +21,7 @@ title: "Teaching"
 
 - 2025 : 
   - [LIFAPC](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/) (printemps) : chargé de TD 
+    - Annale corrigée 1er contrôle : [sujet](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/Supports/Annales/2019_rec_for.pdf) [vidéo de la correction](https://youtu.be/xvFM0hZQtLc) [fiche recap](./fiche_sommes.pdf)
 
 
 <form id="feedbackForm">
