@@ -35,6 +35,7 @@ title:
 
 <h1><u> Conferences</u></h1>
 
+- Presentation : EG 25
 - Attendee : "Geometry & Computing" @ CIRM 2024
 - Presentation : EG 24
 - Attendee : SGP 23
