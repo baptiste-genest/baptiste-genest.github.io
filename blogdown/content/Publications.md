@@ -21,7 +21,7 @@ function copyBib(bib) {
 <img src="../teasers/implicit_uvs.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:70%" alt="Implicit UVs trailer" />
 
 
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">PDF (Author version)</button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">PDF (submitted version)</button>
 </div>
 
 
