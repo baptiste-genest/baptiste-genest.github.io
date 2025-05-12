@@ -22,7 +22,7 @@ function copyBib(bib) {
 
 
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
-<button class="button-4" onclick="window.location.href='https://eg25.cs.ucl.ac.uk/main/talks.html?type=Full%20Paper#Full-Paper-7'">Paper </button>
+<button class="button-4" onclick="window.location.href='https://diglib.eg.org/items/4e4e94d4-bdcd-4623-af57-04e7f185b170'">Paper </button>
 </div>
 
 
