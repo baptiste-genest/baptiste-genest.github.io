@@ -21,7 +21,8 @@ function copyBib(bib) {
 <img src="../teasers/implicit_uvs.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:70%" alt="Implicit UVs trailer" />
 
 
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">PDF (submitted version)</button>
+<button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
+<button class="button-4" onclick="window.location.href='https://eg25.cs.ucl.ac.uk/main/talks.html?type=Full%20Paper#Full-Paper-7'">Paper </button>
 </div>
 
 
