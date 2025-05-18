@@ -23,8 +23,9 @@ function copyBib(bib) {
 
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
 <button class="button-4" onclick="window.location.href='https://diglib.eg.org/items/4e4e94d4-bdcd-4623-af57-04e7f185b170'">Paper </button>
-</div>
 
+</div>
+<center>Robot Model Artist: Lucien Dupont</center>
 
 
 ## Non-Euclidean Sliced Optimal Transport Sampling 
