@@ -7,7 +7,8 @@ title:
 <br><br>
 
 <h1 style="text-align: center;"> Baptiste GENEST </h1>
-<h3 style="text-align: center;"> <i>French Master student in Applied Mathematics</i> </h3>
+<h3 style="text-align: center;"> <i>French PhD student in Geometry Processing</i> </h3>
+<h3 style="text-align: center;"> <i>Supervised by <a href="https://perso.liris.cnrs.fr/david.coeurjolly/">David Coeurjolly</a></i> </h3>
 <div style="text-align: center;"> baptiste.genest@etu.univ-lyon1.fr </div>
 
 <br><br>
