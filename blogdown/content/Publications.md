@@ -21,8 +21,10 @@ function copyBib(bib) {
 <img src="../teasers/implicit_uvs.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:70%" alt="Implicit UVs trailer" />
 
 
+
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper (Submitted version) </button>
+<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Video </button>
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
-<button class="button-4" onclick="window.location.href='https://diglib.eg.org/items/4e4e94d4-bdcd-4623-af57-04e7f185b170'">Paper </button>
 
 </div>
 <center>Robot Model Artist: Lucien Dupont</center>
