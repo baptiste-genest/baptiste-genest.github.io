@@ -29,8 +29,6 @@ function copyBib(bib) {
 
 
 </div>
-<center>Robot Model Artist: Lucien Dupont</center>
-
 
 ## Non-Euclidean Sliced Optimal Transport Sampling 
 *Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly* 
