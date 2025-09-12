@@ -20,6 +20,7 @@ title: "Teaching"
 <br>
 
 - 2025 : 
+  - [LIFAPI](https://perso.univ-lyon1.fr/elodie.desseree/LIFAPI/TP.html) (automne) : chargé de TP
   - [LIFAPC](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/) (printemps) : chargé de TD 
     - Annale corrigée 1er contrôle : [sujet](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/Supports/Annales/2019_rec_for.pdf) [vidéo de la correction](https://youtu.be/wBoQUa_ymMo) [fiche recap](./fiche_sommes.pdf)
 
