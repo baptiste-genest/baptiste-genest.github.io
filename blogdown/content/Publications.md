@@ -13,6 +13,19 @@ function copyBib(bib) {
 </script>
 
 
+## BSP-OT: Sparse transport plans between discrete measures in loglinear time 
+*SIGGRAPH Asia  2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly*
+
+
+<div style="text-align:center">
+<img src="../teasers/bsp-ot.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="BSP-OT trailer" />
+
+
+
+<button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
+
+</div>
+
 ## Implicit UVs: Real-time semi-global parameterization of implicit surfaces 
 *Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang*
 

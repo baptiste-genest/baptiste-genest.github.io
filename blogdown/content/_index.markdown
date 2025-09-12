@@ -15,6 +15,7 @@ title:
 
 <h1><u>News</u></h1>
 
+(12/09/25) Our paper [BSP-OT](./publications/) has been accepted at SIGGRAPH Asia 25 (journal).
 (26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/)!
 
 <h1><u>Education</u></h1>
@@ -34,6 +35,7 @@ title:
 
 <h1><u> Conferences</u></h1>
 
+- Attendee : SGP 25
 - Presentation : EG 25
 - Attendee : "Geometry & Computing" @ CIRM 2024
 - Presentation : EG 24
