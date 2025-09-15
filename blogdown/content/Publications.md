@@ -23,6 +23,7 @@ function copyBib(bib) {
 
 
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
+<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
 
 </div>
 
@@ -49,9 +50,9 @@ function copyBib(bib) {
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
 <h4 style="text-align: center;"> <span style="color:red"> Günter Enderle Award for the Best Paper </span> </h4>
-<button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">PDF</button>
-<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">VIDEO</button>
-<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">CODE</button>
+<button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">Paper</button>
+<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Video</button>
+<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">Code</button>
 <button class="button-4" role="button" onclick="copyBib(nesots_bib)">Copy BibTeX</button>
 <button class="button-4" onclick="window.location.href='../papers/erratum_nesots.pdf'">Erratum</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots'">Replicability Stamp</button>
