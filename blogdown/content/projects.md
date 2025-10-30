@@ -10,7 +10,6 @@ Here is a selection of my favorite and most polished projects/experiments over t
 
    <video 
         src="../projects/LBM_small.mp4" 
-        controls 
         autoplay 
         muted 
         loop 
@@ -30,7 +29,6 @@ Amazing resources: [book](https://link.springer.com/book/10.1007/978-3-319-44649
 
    <video 
         src="../projects/MCDLA.mp4" 
-        controls 
         autoplay 
         muted 
         loop 
