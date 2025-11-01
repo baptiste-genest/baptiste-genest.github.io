@@ -3,7 +3,7 @@ title: "Software"
 ---
 
    <video 
-        src="../slope_intro.mp4" 
+        src="https://slopedoc.github.io/static/slope_intro.mp4" 
         autoplay 
         muted 
         loop 
