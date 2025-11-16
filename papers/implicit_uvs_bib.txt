@@ -1,0 +1,9 @@
+@inproceedings{genest2025implicit,
+  title={Implicit UVs: Real-time semi-global parameterization of implicit surfaces},
+  author={Genest, Baptiste and Gueth, Pierre and Levallois, J{\'e}r{\'e}my and Wang, Stephanie},
+  booktitle={COMPUTER GRAPHICS forum},
+  volume={44},
+  number={2},
+  year={2025}
+}
+
