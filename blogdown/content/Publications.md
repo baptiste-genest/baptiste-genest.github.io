@@ -13,7 +13,7 @@ function copyBib(bib) {
 </script>
 
 
-## BSP-OT: Sparse transport plans between discrete measures in loglinear time 
+## BSP-OT: Sparse transport plans between discrete measures in loglinear time {#bspot}
 *SIGGRAPH Asia  2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly*
 
 
@@ -28,7 +28,7 @@ function copyBib(bib) {
 
 </div>
 
-## Implicit UVs: Real-time semi-global parameterization of implicit surfaces 
+## Implicit UVs: Real-time semi-global parameterization of implicit surfaces {#implicit-uvs}
 *Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang*
 
 
@@ -45,7 +45,7 @@ function copyBib(bib) {
 
 </div>
 
-## Non-Euclidean Sliced Optimal Transport Sampling 
+## Non-Euclidean Sliced Optimal Transport Sampling {#nesots}
 *Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly* 
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />

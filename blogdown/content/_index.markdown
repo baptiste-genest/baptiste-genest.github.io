@@ -15,7 +15,7 @@ title:
 
 <h1><u>News</u></h1>
 
-(12/09/25) Our paper [BSP-OT](./publications/) has been accepted at SIGGRAPH Asia 25 (journal).
+(12/09/25) Our paper [BSP-OT](./publications/#bspot) has been accepted at SIGGRAPH Asia 25 (journal).
 
 (26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/)!
 
@@ -27,9 +27,9 @@ title:
 
 <h1><u>Experience</u></h1>
 
-- *Research Internship* : April to September 24 - **Adobe** - Lyon office  -> [Implicit UVs paper](./publications/)
+- *Research Internship* : April to September 24 - **Adobe** - Lyon office  -> [Implicit UVs paper](./publications/#implicit-uvs)
 
-- *Research Internship* : Summer 23 - with David Coeurjolly - "Non Euclidean Sliced Optimal Transport" -> [NESOTS paper](./publications/)
+- *Research Internship* : Summer 23 - with David Coeurjolly - "Non Euclidean Sliced Optimal Transport" -> [NESOTS paper](./publications/#nesots)
 
 - *Research Internship* : Summer 22 - with [David Coeurjolly](https://perso.liris.cnrs.fr/david.coeurjolly/) - "Discrete differential operators on polygonal meshes" contribution to [DGtal](https://www.dgtal.org/doc/stable/moduleVectorsInHeat.html)
 
