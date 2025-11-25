@@ -29,6 +29,13 @@
       <description> BSP-OT: Sparse transport plans between discrete measures in loglinear time SIGGRAPH Asia 2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly&#xA;Paper Code Supplementary&#xA;Implicit UVs: Real-time semi-global parameterization of implicit surfaces Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang&#xA;Paper (Submitted version) Bibtex Video Fast Forward&#xA;Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly&#xA;Günter Enderle Award for the Best Paper Paper Video Code Copy BibTeX Erratum Replicability Stamp </description>
     </item>
     <item>
+      <title>Software</title>
+      <link>/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/software/</guid>
+      <description> Slope Slope is a 3D slide engine built on top of Polyscope !&#xA;All my conference presentations have been with it and I&amp;rsquo;ve had some very nice feedback so feel free to check the software and the documentation!&#xA;Repo Documentation </description>
+    </item>
+    <item>
       <title>Talks / Reports</title>
       <link>/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
