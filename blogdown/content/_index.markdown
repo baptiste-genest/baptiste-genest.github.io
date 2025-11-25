@@ -17,7 +17,7 @@ title:
 
 (12/09/25) Our paper [BSP-OT](./publications/#bspot) has been accepted at SIGGRAPH Asia 25 (journal).
 
-(26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/)!
+(26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/#nesots)!
 
 <h1><u>Education</u></h1>
 
