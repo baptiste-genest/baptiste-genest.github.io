@@ -20,6 +20,7 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/bsp-ot.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="BSP-OT trailer" />
 
+<h3 style="text-align: center;"> <span style="color:red"> Best Paper Award </span> </h3>
 
 
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
@@ -38,7 +39,7 @@ function copyBib(bib) {
 
 
 
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper (Submitted version) </button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_final.pdf'">Paper (Submitted version) </button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_bib.txt'">Bibtex</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Video </button>
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
@@ -51,7 +52,7 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
-<h4 style="text-align: center;"> <span style="color:red"> Günter Enderle Award for the Best Paper </span> </h4>
+<h3 style="text-align: center;"> <span style="color:red"> Günter Enderle Award for the Best Paper </span> </h3>
 <button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">Paper</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Video</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">Code</button>

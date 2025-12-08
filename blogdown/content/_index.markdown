@@ -15,7 +15,10 @@ title:
 
 <h1><u>News</u></h1>
 
-(12/09/25) Our paper [BSP-OT](./publications/#bspot) has been accepted at SIGGRAPH Asia 25 (journal).
+
+(15/12/25) We received a <span style="color:red">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
+
+(12/09/25) Our paper [BSP-OT](./publications/#bsp-ot) has been accepted at SIGGRAPH Asia 25 (journal).
 
 (26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/#nesots)!
 
