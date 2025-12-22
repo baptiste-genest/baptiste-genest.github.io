@@ -16,11 +16,11 @@ title:
 <h1><u>News</u></h1>
 
 
-(15/12/25) We received a <span style="color:red">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
+(15/12/25) We received a <span style="color:Orange">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
 
 (12/09/25) Our paper [BSP-OT](./publications/#bsp-ot) has been accepted at SIGGRAPH Asia 25 (journal).
 
-(26/04/24) We received the "<span style="color:red">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/#nesots)!
+(26/04/24) We received the "<span style="color:Orange">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/#nesots)!
 
 <h1><u>Education</u></h1>
 
@@ -29,6 +29,8 @@ title:
 - 2019-2022 **Licence Major CS Minor Math - Université Lyon 1** 1/20 (among "bi-licence" CS/Math students)
 
 <h1><u>Experience</u></h1>
+
+- *PhD Student* : January 25 to now 
 
 - *Research Internship* : April to September 24 - **Adobe** - Lyon office  -> [Implicit UVs paper](./publications/#implicit-uvs)
 
