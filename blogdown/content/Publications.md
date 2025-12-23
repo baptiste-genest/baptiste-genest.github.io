@@ -26,6 +26,7 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot-supp.pdf'">Supplementary</button>
+<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=afhEaVF7rZY'">Video</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot'">Replicability Stamp</button>
 
 </div>
