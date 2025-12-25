@@ -42,6 +42,7 @@ function copyBib(bib) {
 
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_final.pdf'">Paper (Submitted version) </button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_bib.txt'">Bibtex</button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Video </button>
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
 
