@@ -41,9 +41,11 @@ title:
 
 <h1><u> Conferences</u></h1>
 
+- Presentation : SIGGRAPH Asia 25
+- Presentation : JFIG 25
 - Attendee : SGP 25
 - Presentation : EG 25
-- Attendee : "Geometry & Computing" @ CIRM 2024
+- Attendee : "Geometry & Computing" @ CIRM 24
 - Presentation : EG 24
 - Attendee : SGP 23
 - Attendee : SGP 22 (remote)
