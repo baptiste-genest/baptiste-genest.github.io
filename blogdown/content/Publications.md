@@ -24,8 +24,8 @@ function copyBib(bib) {
 
 
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
-<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot-supp.pdf'">Supplementary</button>
+<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=afhEaVF7rZY'">Video</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot'">Replicability Stamp</button>
 
@@ -41,7 +41,6 @@ function copyBib(bib) {
 
 
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_final.pdf'">Paper (Submitted version) </button>
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_bib.txt'">Bibtex</button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Video </button>
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
@@ -56,9 +55,8 @@ function copyBib(bib) {
 
 <h3 style="text-align: center;"> <span style="color:Orange"> Günter Enderle Award for the Best Paper </span> </h3>
 <button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">Paper</button>
-<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Video</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">Code</button>
-<button class="button-4" role="button" onclick="copyBib(nesots_bib)">Copy BibTeX</button>
+<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Video</button>
 <button class="button-4" onclick="window.location.href='../papers/erratum_nesots.pdf'">Erratum</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots'">Replicability Stamp</button>
 </div>
