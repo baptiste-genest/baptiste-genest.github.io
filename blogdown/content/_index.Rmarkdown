@@ -53,11 +53,11 @@ title:
 ## Topics I am interested in : 
 - Geometry Processing
 - Classical and Discrete Differential Geometry
-- PDE's
+- PDEs
 - Numerical Schemes
 - Optimal Transport
 - Numerical Linear Algebra
 - Lie Groups
 - Physical Simulation and Fluid Mecanics
-- SDE's and applications to monte-carlo PDE methods
+- SDEs and applications to monte-carlo PDE methods
 
