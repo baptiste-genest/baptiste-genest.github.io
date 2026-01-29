@@ -19,7 +19,7 @@
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/</guid>
-      <description>Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).&#xA;Worst sorting algorithm ever but it&amp;rsquo;s an eigenvalue flow Given a time-valued matrix function A(t), its eigenvalues and eigenvectors evolve as.: $$ \dot{\lambda}_i = \langle \dot{A} n_i,n_i\rangle \\ \dot{n}_i = \sum \frac{1}{\lambda_i - \lambda_j} \langle \dot{A} n_i,n_j\rangle n_j $$&#xA;By setting A(t) = A_0 + t(B-A_0) we know that the eigenvalues of A(t) must interpolate between the ones of A_0 and B but by remaining sorted along the way since the repulsive potential 1/(\lambda_i - \lambda_j) must always be finite.</description>
+      <description>Here is a selection of my favorite and most polished projects/experiments since I started college, sorted by period of interest (Most recent first).&#xA;Worst sorting algorithm ever but it&amp;rsquo;s an eigenvalue flow Given a time-valued matrix function A(t), its eigenvalues and eigenvectors evolve as.: $$ \dot{\lambda}_i = \langle \dot{A} n_i,n_i\rangle \\ \dot{n}_i = \sum \frac{1}{\lambda_i - \lambda_j} \langle \dot{A} n_i,n_j\rangle n_j $$&#xA;By setting A(t) = A_0 + t(B-A_0) we know that the eigenvalues of A(t) must interpolate between the ones of A_0 and B but by remaining sorted along the way since the repulsive potential 1/(\lambda_i - \lambda_j) must always be finite.</description>
     </item>
     <item>
       <title>Publications</title>
