@@ -12,7 +12,7 @@ title: "Projects"
 </script>
 <div style="text-align:center">
 
-Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).
+Here is a selection of my favorite and most polished projects/experiments since I started college, sorted by period of interest (Most recent first).
 </div>
 
 
