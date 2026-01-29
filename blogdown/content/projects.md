@@ -16,7 +16,7 @@ Here is a selection of my favorite and most polished projects/experiments since 
 </div>
 
 
-<img src="matrix_flow.png" style="display: block; float:left;
+<img src="matrix_flow.png" style="display: block; float:right;
            margin-left: auto;
            margin-right: auto;" alt= “” width="350" height="">
 ## Worst sorting algorithm ever but it's an eigenvalue flow
