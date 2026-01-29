@@ -2,13 +2,37 @@
 title: "Projects"
 
 ---
-
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
 <div style="text-align:center">
 
 Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).
 </div>
 
-   <video 
+
+<img src="matrix_flow.png" style="display: block; float:left;
+           margin-left: auto;
+           margin-right: auto;" alt= “” width="350" height="">
+## Worst sorting algorithm ever but it's an eigenvalue flow
+
+Given a time-valued matrix function A(t), its eigenvalues and eigenvectors evolve [as](https://mathoverflow.net/questions/229425/derivative-of-eigenvectors-of-a-matrix-with-respect-to-its-components).: 
+$$
+\dot{\lambda}_i = \langle \dot{A} n_i,n_i\rangle \\\\
+\dot{n}_i = \sum \frac{1}{\lambda_i - \lambda_j} \langle \dot{A} n_i,n_j\rangle n_j
+$$
+
+By setting A(t) = A_0 + t(B-A_0) we know that the eigenvalues of A(t) must interpolate between the ones of A_0 and B but by remaining sorted along the way since the repulsive potential 1/(\lambda_i - \lambda_j) must always be finite.
+Hence, starting from A_0 with random eigenvectors and eigenvalues 1,...,n allows one to track the sorting to the target values encoded as the eigenvalues of B. This algorithm has a complexity of at least O(n^3) for each timestep and is numerically unstable ^^.
+Sorting by eigenvalues flow had been found with a different approach with [Brockett flow](https://hrl.harvard.edu/publications/brockett88dynamical.pdf).
+
+
+ <video 
         src="../projects/LBM_small.mp4" 
         autoplay 
         muted 

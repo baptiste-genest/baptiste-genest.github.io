@@ -8,6 +8,28 @@ title: "Projects"
 Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).
 </div>
 
+
+   <video 
+        src="../projects/MCDLA.mp4" 
+        controls 
+        autoplay 
+        muted 
+        loop 
+        style="display: block; float: left; margin-left: auto; margin-right: 30px; width: 400px; height: auto;">
+    </video>
+## Worst sorting algorithm ever, but it's an eigenvalue flow
+
+A Markov Chain interpretation of the DLA process.
+The idea is to replace the brownian motion simulation with a computation of the probability:
+$$
+f_n(x) = \mathbb{P}(B_{\tau_n} = x \in \partial X_n | \tau_n < \infty )
+$$
+where \( \tau_n \) . is a stopping time of a brownian motion, coming from infinity, touching the 
+
+- First compute the fix point of a markov chain with uniform distribution, 
+
+
+
    <video 
         src="../projects/LBM_small.mp4" 
         controls 
