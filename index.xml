@@ -19,14 +19,14 @@
       <link>/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/projects/</guid>
-      <description>Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).&#xA;Lattice Boltzman Method (LBM) Canonical solver of the LBM in D2Q9.&#xA;Two Relaxation Time (TRT) method for the collision operator. Dirichlet boundary conditions: $$ f_i(x,t) = f_i^{eq}(\rho,\vec{0}) \text{, } x\in \partial \Omega. $$ Curl visualized in blue/red. Amazing resources: book blog.&#xA;Markov-Chain Diffusion-Limited-Aggregation (MCDLA) A Markov Chain interpretation of the DLA process.</description>
+      <description>Here is a selection of my favorite and most polished projects/experiments over the last 5 years, sorted by period of interest (Most recent first).&#xA;Worst sorting algorithm ever but it&amp;rsquo;s an eigenvalue flow Given a time-valued matrix function A(t), its eigenvalues and eigenvectors evolve as.: $$ \dot{\lambda}_i = \langle \dot{A} n_i,n_i\rangle \\ \dot{n}_i = \sum \frac{1}{\lambda_i - \lambda_j} \langle \dot{A} n_i,n_j\rangle n_j $$&#xA;By setting A(t) = A_0 + t(B-A_0) we know that the eigenvalues of A(t) must interpolate between the ones of A_0 and B but by remaining sorted along the way since the repulsive potential 1/(\lambda_i - \lambda_j) must always be finite.</description>
     </item>
     <item>
       <title>Publications</title>
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publications/</guid>
-      <description>BSP-OT: Sparse transport plans between discrete measures in loglinear time SIGGRAPH Asia 2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly&#xA;Best Paper Award Paper Code Supplementary Replicability Stamp&#xA;Implicit UVs: Real-time semi-global parameterization of implicit surfaces Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang&#xA;Paper (Submitted version) Bibtex Video Fast Forward&#xA;Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly</description>
+      <description>BSP-OT: Sparse transport plans between discrete measures in loglinear time SIGGRAPH Asia 2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly&#xA;Best Paper Award Paper Supplementary Code Talk Replicability Stamp&#xA;Implicit UVs: Real-time semi-global parameterization of implicit surfaces Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang&#xA;Paper (Submitted version) Supplementary Talk Fast Forward&#xA;Non-Euclidean Sliced Optimal Transport Sampling Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly</description>
     </item>
     <item>
       <title>Software</title>
