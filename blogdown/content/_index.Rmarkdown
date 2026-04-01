@@ -15,6 +15,7 @@ title:
 
 <h1><u>News</u></h1>
 
+(30/03/26) Our paper [Uncertainty-Aware geometry processing on Gaussian Process Implicit Surfaces](./publications/#gpgp) has been accepted at SIGGRAPH 26 (journal).
 
 (15/12/25) We received a <span style="color:Orange">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
 
@@ -25,8 +26,8 @@ title:
 <h1><u>Education</u></h1>
 
 - 23-24 **Master 2 "Maths en Action"** (Research in Applied Math)
-- 22-23 **Master 1 Computer Science - Université Lyon 1** 1/70 + **4 Applied Math Courses Master 1** 2/30
-- 2019-2022 **Licence Major CS Minor Math - Université Lyon 1** 1/20 (among "bi-licence" CS/Math students)
+- 22-23 **Master 1 Computer Science - Université Lyon 1** + **4 Applied Math Courses Master 1** 
+- 19-22 **Licence Major CS Minor Math - Université Lyon 1** 
 
 <h1><u>Experience</u></h1>
 
@@ -41,6 +42,7 @@ title:
 
 <h1><u> Conferences</u></h1>
 
+- Presentation : SIGGRAPH 26 + Reviewer (4 papers)
 - Presentation : SIGGRAPH Asia 25
 - Presentation : JFIG 25
 - Attendee : SGP 25

@@ -13,6 +13,16 @@ function copyBib(bib) {
 </script>
 
 
+## Uncertainty-aware geometry processing on Gaussian Process Implicit Surfaces {#gpgp}
+*SIGGRAPH 2026 (journal) - Baptiste Genest, David Coeurjolly*
+
+<div style="text-align:center">
+<img src="../teasers/gpgp.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="GPGP trailer" />
+
+<span style="text-align: center;"> Soon </span>
+
+</div>
+
 ## BSP-OT: Sparse transport plans between discrete measures in loglinear time {#bspot}
 *SIGGRAPH Asia  2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly*
 
@@ -53,7 +63,7 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
-<h3 style="text-align: center;"> <span style="color:Orange"> Günter Enderle Award for the Best Paper </span> </h3>
+<h3 style="text-align: center;"> <span style="color:Orange"> Best paper Award </span> </h3>
 <button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">Paper</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">Code</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Talk</button>
