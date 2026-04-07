@@ -13,15 +13,6 @@ function copyBib(bib) {
 </script>
 
 
-## Uncertainty-aware geometry processing on Gaussian Process Implicit Surfaces {#gpgp}
-*SIGGRAPH 2026 (journal) - Baptiste Genest, David Coeurjolly*
-
-<div style="text-align:center">
-<img src="../teasers/gpgp.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="GPGP trailer" />
-
-<span style="text-align: center;"> Soon </span>
-
-</div>
 
 ## BSP-OT: Sparse transport plans between discrete measures in loglinear time {#bspot}
 *SIGGRAPH Asia  2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly*

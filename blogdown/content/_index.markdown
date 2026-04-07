@@ -15,7 +15,7 @@ title:
 
 <h1><u>News</u></h1>
 
-(30/03/26) Our paper [Uncertainty-Aware geometry processing on Gaussian Process Implicit Surfaces](./publications/#gpgp) has been accepted at SIGGRAPH 26 (journal).
+(30/03/26) Our paper "Uncertainty-Aware geometry processing on Gaussian Process Implicit Surfaces" has been conditionally accepted at SIGGRAPH 26 (journal).
 
 (15/12/25) We received a <span style="color:Orange">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
 
