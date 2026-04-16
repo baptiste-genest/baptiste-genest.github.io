@@ -29,7 +29,7 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=afhEaVF7rZY'">Talk</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot'">Replicability Stamp</button>
-
+<button class="button-4" onclick="window.location.href='https://www.ins2i.cnrs.fr/fr/cnrsinfo/transport-optimal-une-methode-simple-et-efficace-pour-des-problemes-de-grande-taille'">News</button>
 </div>
 
 ## Implicit UVs: Real-time semi-global parameterization of implicit surfaces {#implicit-uvs}
@@ -60,4 +60,5 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Talk</button>
 <button class="button-4" onclick="window.location.href='../papers/erratum_nesots.pdf'">Erratum</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots'">Replicability Stamp</button>
+<button class="button-4" onclick="window.location.href='https://www.ins2i.cnrs.fr/fr/cnrsinfo/echantillonner-des-geometries-non-euclidiennes-par-transport-optimal'">News</button>
 </div>
