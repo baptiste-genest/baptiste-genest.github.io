@@ -13,7 +13,7 @@ function copyBib(bib) {
 </script>
 
 ## Uncertainty-aware geometry processing on Gaussian Process Implicit Surfaces {#gpgp}
-*SIGGRAPH 2026 (journal) - Baptiste Genest, David Coeurjolly*
+*SIGGRAPH NA 2026 (journal) - Baptiste Genest, David Coeurjolly*
 
 
 <div style="text-align:center">
