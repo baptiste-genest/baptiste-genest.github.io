@@ -19,6 +19,7 @@ function copyBib(bib) {
 <div style="text-align:center">
 <img src="../teasers/gpgp.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="BSP-OT trailer" />
 
+<h3 style="text-align: center;"> <span style="color:Orange"> Best paper Award (Honorable mention) </span> </h3>
 <button class="button-4" onclick="window.location.href='../papers/gpgp.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/gpgp_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/GPGP'">Code</button>
