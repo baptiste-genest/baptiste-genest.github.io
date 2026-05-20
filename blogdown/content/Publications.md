@@ -23,6 +23,7 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='../papers/gpgp.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/gpgp_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/GPGP'">Code</button>
+<button class="button-4" onclick="window.location.href='https://blog.siggraph.org/2026/05/beyond-deterministic-surfaces-uncertainty-aware-geometry-processing.html/'">News</button>
 </div>
 
 
