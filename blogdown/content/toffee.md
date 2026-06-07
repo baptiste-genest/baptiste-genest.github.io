@@ -12,16 +12,14 @@ A random Toffee picture to brighten your day.
 <button id="loadImageButton">ANOTHER ONE</button>
 
 <script>
-    let nb_imgs = 39;
+    let nb_imgs = 49;
     const array = Array.from(Array(nb_imgs).keys());
     const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
-    //console.log(shuffledArray);
     var id = 0;
     // Sélection d'une image aléatoire
     function loadRandomImage() {
-        const randomIndex = shuffledArray[id++]+1;//Math.floor(Math.random() * 25)+1;
+        const randomIndex = shuffledArray[id++]+1;
         id %= nb_imgs;
-        //console.log(randomIndex-1,id);
         const randomImagePath = "../toffee/toffee_" + randomIndex+".jpg";
         // Affichage de l'image
         document.getElementById('randomImage').src = randomImagePath;

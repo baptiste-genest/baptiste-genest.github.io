@@ -27,7 +27,7 @@ function copyBib(bib) {
 </div>
 
 
-## BSP-OT: Sparse transport plans between discrete measures in loglinear time {#bspot}
+## BSP-OT: Sparse transport plans between discrete measures in loglinear time {#bsp-ot}
 *SIGGRAPH Asia  2025 (journal) - Baptiste Genest, Nicolas Bonneel, Vincent Nivoliers, David Coeurjolly*
 
 
@@ -40,6 +40,7 @@ function copyBib(bib) {
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/bsp-ot-supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
+<button class="button-4" onclick="window.location.href='https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html'">POT</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=afhEaVF7rZY'">Talk</button>
 <button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot'">Replicability Stamp</button>
 <button class="button-4" onclick="window.location.href='https://www.ins2i.cnrs.fr/fr/cnrsinfo/transport-optimal-une-methode-simple-et-efficace-pour-des-problemes-de-grande-taille'">News</button>
