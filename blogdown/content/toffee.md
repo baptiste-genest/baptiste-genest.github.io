@@ -11,21 +11,40 @@ A random Toffee picture to brighten your day.
 
 <button id="loadImageButton">ANOTHER ONE</button>
 
-<script>
-    let nb_imgs = 49;
-    const array = Array.from(Array(nb_imgs).keys());
-    const shuffledArray = array.sort((a, b) => 0.5 - Math.random());
-    var id = 0;
-    // Sélection d'une image aléatoire
-    function loadRandomImage() {
-        const randomIndex = shuffledArray[id++]+1;
-        id %= nb_imgs;
-        const randomImagePath = "../toffee/toffee_" + randomIndex+".jpg";
-        // Affichage de l'image
-        document.getElementById('randomImage').src = randomImagePath;
+<script>let nb_imgs = 47;
+
+const shuffledArray = Array.from(
+    { length: nb_imgs },
+    (_, i) => i + 1
+);
+
+function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
     }
-    loadRandomImage();
-    document.getElementById('loadImageButton').addEventListener('click', loadRandomImage);
+}
+
+shuffle(shuffledArray);
+
+let id = 0;
+
+function loadRandomImage() {
+    if (id >= nb_imgs) {
+        id = 0;
+    }
+
+    const randomIndex = shuffledArray[id++];
+    document.getElementById('randomImage').src =
+        `../toffee/toffee_${randomIndex}.jpg`;
+}
+
+loadRandomImage();
+
+document
+    .getElementById('loadImageButton')
+    .addEventListener('click', loadRandomImage);
+    
 </script>
 
 </script>
