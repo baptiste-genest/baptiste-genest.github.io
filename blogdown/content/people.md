@@ -24,7 +24,7 @@ Working with them has been such a pleasure and a blessing.
 - [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/) 
   - The ["Heat method"](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html) made me fall in love with Geometry Processing and differential geometry.
   The beauty of his papers, courses, and talks did the rest.
-- [Justin Solomon](https://justinsolomon.org/) 
+- [Justin Solomon](https://people.csail.mit.edu/jsolomon/) 
   - The figures in the ["Convolutional Wasserstein Barycenters"](https://people.csail.mit.edu/jsolomon/assets/convolutional_w2.compressed.pdf) 
   almost single-handedly made me want to discover and learn Optimal Transport.
 - [Albert Chern](https://cseweb.ucsd.edu/~alchern/projects/)
