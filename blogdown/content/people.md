@@ -22,8 +22,8 @@ Working with them has been such a pleasure and a blessing.
   - His ["Oldies but goldies"](https://x.com/gabrielpeyre/status/1194857492292915200) 
   Twitter series basically introduced me to all the topics I love today, I wouldn't be where I am today without him.
 - [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/) 
-  - The ["Heat method"](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html) made me fall in love with Geometry Processing and differential geometry,
-  and the beauty of his papers, courses, and talks did the rest.
+  - The ["Heat method"](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html) made me fall in love with Geometry Processing and differential geometry.
+  The beauty of his papers, courses, and talks did the rest.
 - [Justin Solomon](https://justinsolomon.org/) 
   - The figures in the ["Convolutional Wasserstein Barycenters"](https://people.csail.mit.edu/jsolomon/assets/convolutional_w2.compressed.pdf) 
   almost single-handedly made me want to discover and learn Optimal Transport.
