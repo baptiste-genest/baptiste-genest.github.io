@@ -37,10 +37,13 @@ menu:
     - name: Toffee
       url: "toffee/"
       weight: 7
+    - name: People
+      url: "people/"
+      weight: 8
 
 params:
   description: "Personal webpage of Baptiste Genest."
-  footer: "[Github](https://github.com/baptiste-genest) | [Twitter](https://twitter.com/Eulerson314) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
+  footer: "[Github](https://github.com/baptiste-genest) | [Bluesky](https://bsky.app/profile/baptiste-genest.bsky.social) | [Scholar](https://scholar.google.com/citations?user=4gYLnGsAAAAJ&hl=fr) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
 
 markup:
   highlight:
