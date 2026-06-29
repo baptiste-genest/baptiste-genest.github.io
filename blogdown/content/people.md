@@ -62,7 +62,7 @@ People who consistently do amazing work.
 
 ## Lab-mates
 
-My nice, smart and (incredibly) funny friends at the ["Bureau 41"](../bureau41.jpg) who make each day of my PhD a joy.
+My nice, smart and (incredibly) funny friends at the "Bureau 41" who make each day of my PhD a joy.
 
 - [Clément Aralou](https://liris.cnrs.fr/page-membre/clement-aralou)
 - [Gautier Campagne](https://perso.liris.cnrs.fr/gcampagne/)
