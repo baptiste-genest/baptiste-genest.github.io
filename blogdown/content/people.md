@@ -71,3 +71,6 @@ My nice, smart and (incredibly) funny friends at the "Bureau 41" who make each d
 - [Timon Deschamps](https://temporaldifference.com/)
 - [Cyril Perosino](https://liris.cnrs.fr/page-membre/cyril-perosino)
 
+The [Origami team PhD students](https://projet.liris.cnrs.fr/origami/members/) are also wonderful people!
+
+
