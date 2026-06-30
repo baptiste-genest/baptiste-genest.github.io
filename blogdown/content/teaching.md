@@ -19,6 +19,9 @@ title: "Teaching"
 <br>
 <br>
 
+- 2026 :
+  - [LIFAMI](http://alexandre.meyer.pages.univ-lyon1.fr/lifami/) (printemps) : chargé de TP
+  
 - 2025 : 
   - [LIFAPI](https://perso.univ-lyon1.fr/elodie.desseree/LIFAPI/TP.html) (automne) : chargé de TP
   - [LIFAPC](https://perso.liris.cnrs.fr/vincent.nivoliers/lifapc/) (printemps) : chargé de TD 
