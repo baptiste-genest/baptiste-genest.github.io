@@ -4,7 +4,7 @@ title: "Acknowledgements"
 
 <div style="text-align:center">
 
-A (non-exhaustive) tribute to the researchers who have had a meaningful impact at some point in my academic journey.
+A (non-exhaustive) tribute to the researchers who have had a meaningful impact at some point in my journey.
 
 </div>
 
