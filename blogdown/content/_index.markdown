@@ -17,13 +17,9 @@ title:
 
 (07/06/26) [BSP-OT](./publications/#bsp-ot) is now part of the [Python Optimal Transport (POT)](https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html) library! Many thanks to Rémi Flamary.
 
-(14/05/26) We received a <span style="color:Orange">Best paper award (Honorable mention)</span> for [Uncertainty-aware geometry processing on GPIS](./publications/#gpgp)!
+(14/05/26) We received a <span style="color:Orange">SIGGRAPH best paper award (Honorable mention)</span> for [Uncertainty-aware geometry processing on GPIS](./publications/#gpgp)!
 
-(30/03/26) Our paper ["Uncertainty-Aware geometry processing on Gaussian Process Implicit Surfaces"](./publications/#gpgp) has been accepted at SIGGRAPH NA 26 (journal).
-
-(15/12/25) We received a <span style="color:Orange">Best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
-
-(12/09/25) Our paper [BSP-OT](./publications/#bsp-ot) has been accepted at SIGGRAPH Asia 25 (journal).
+(15/12/25) We received a <span style="color:Orange">SIGGRAPH Asia best paper award</span> for [BSP-OT](./publications/#bsp-ot)!
 
 (26/04/24) We received the "<span style="color:Orange">Günter Enderle best paper award</span>" for our article [NESOTS](./publications/#nesots)!
 
