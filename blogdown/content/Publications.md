@@ -55,10 +55,12 @@ function copyBib(bib) {
 
 
 
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_final.pdf'">Paper</button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Talk </button>
 <button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_erratum.pdf'">Erratum</button>
+
 
 
 </div>

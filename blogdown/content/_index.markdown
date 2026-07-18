@@ -15,6 +15,8 @@ title:
 
 <h1><u>News</u></h1>
 
+(18/07/2026) I visited the [Geometry and the city lab](https://gatc.cs.columbia.edu/) over the last two weeks! It was awesome, many thanks to [Silvia](https://www.cs.columbia.edu/~silviasellan/), [Ningna](https://ningnawang.github.io/), [Xiana](https://xianacarrera.github.io/) and [Olga](https://olgagutan.com/) for their kindness and  hospitality! 
+
 (07/06/26) [BSP-OT](./publications/#bsp-ot) is now part of the [Python Optimal Transport (POT)](https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html) library! Many thanks to Rémi Flamary.
 
 (14/05/26) We received a <span style="color:Orange">SIGGRAPH best paper award (Honorable mention)</span> for [Uncertainty-aware geometry processing on GPIS](./publications/#gpgp)!
