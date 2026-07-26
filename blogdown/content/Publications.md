@@ -55,11 +55,22 @@ function copyBib(bib) {
 
 
 
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;">
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Talk </button>
-<button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
+<details class="button-4-dropdown">
+<summary class="button-4">Code</summary>
+<div class="button-4-dropdown-menu">
+<a href="https://github.com/baptiste-genest/ImplicitUVs">C++</a>
+<a href="https://github.com/ARez2/ImplicitUVsImplementation">Godot</a>
+</div>
+</details>
+<button class="button-4" onclick="window.location.href='../implicit_uvs_demo.html'">Web Demo</button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_erratum.pdf'">Erratum</button>
+</div>
+
+<p style="font-size:0.85em;color:#666;margin-top:4px;">Note: the Web Demo compiles its shaders on first load, which takes about a minute — please be patient.</p>
 
 
 
