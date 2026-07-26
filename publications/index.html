@@ -76,11 +76,21 @@ function copyBib(bib) {
 <p><em>Eurographics 2025 - Baptiste Genest, Pierre Gueth, Jérémy Levallois, Stephanie Wang</em></p>
 <div style="text-align:center">
 <img src="../teasers/implicit_uvs.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:70%" alt="Implicit UVs trailer" />
-<p><button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper</button>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;">
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper</button>
 <button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
 <button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Talk </button>
-<button class="button-4" onclick="window.location.href='https://youtu.be/dK5JPHylzOg'">Fast Forward</button>
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_erratum.pdf'">Erratum</button></p>
+<details class="button-4-dropdown">
+<summary class="button-4">Code</summary>
+<div class="button-4-dropdown-menu">
+<a href="https://github.com/baptiste-genest/ImplicitUVs">C++</a>
+<a href="https://github.com/ARez2/ImplicitUVsImplementation">Godot</a>
+</div>
+</details>
+<button class="button-4" onclick="window.location.href='../implicit_uvs_demo.html'">Web Demo</button>
+<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_erratum.pdf'">Erratum</button>
+</div>
+<p style="font-size:0.85em;color:#666;margin-top:4px;">Note: the Web Demo compiles its shaders on first load, which takes about a minute — please be patient.</p>
 </div>
 <h2 id="nesots">Non-Euclidean Sliced Optimal Transport Sampling</h2>
 <p><em>Eurographics 2024 - Baptiste Genest, Nicolas Courty, David Coeurjolly</em></p>
