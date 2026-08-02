@@ -1,61 +1,21 @@
-<urlset
-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-<loc>https://baptiste-genest.github.io/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/publications/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/software/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/teaching/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/projects/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/talks/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/toffee/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/papers/</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/papers/gpgp.pdf</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/papers/bsp-ot.pdf</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://baptiste-genest.github.io/papers/implict_uvs_final.pdf</loc>
-<lastmod>2026-05-20T03:44:05+00:00</lastmod>
-<priority>1.0</priority>
-</url>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://baptiste-genest.github.io/people/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/projects/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/publications/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/software/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/talks/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/teaching/</loc>
+  </url><url>
+    <loc>https://baptiste-genest.github.io/toffee/</loc>
+  </url>
 </urlset>
