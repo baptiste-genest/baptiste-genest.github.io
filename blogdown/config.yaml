@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "https://baptiste-genest.github.io/"
 languageCode: "en-us"
 title: "Baptiste Genest website"
 author: "Baptiste Genest"
@@ -9,6 +9,9 @@ disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 footnotereturnlinkcontents: "↩"
 publishDir: "../../baptiste-genest.github.io"
+enableRobotsTXT: true
+# no tags/categories are used; these generated empty pages are thin content for search engines
+disableKinds: ["taxonomy", "term"]
 
 permalinks:
   note: "/note/:year/:month/:day/:slug/"

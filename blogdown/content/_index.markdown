@@ -1,5 +1,5 @@
 ---
-title: 
+title: "Baptiste Genest"
 ---
 
 [<img src="batou3.jpg" style="max-width:30%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/baptiste-genest)
