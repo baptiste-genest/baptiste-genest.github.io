@@ -92,6 +92,42 @@ document
 
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
 
+
+<script data-goatcounter="https://baptistegenest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+document.addEventListener('click', function (e) {
+  var el = e.target.closest('a[href], button[onclick]');
+  if (!el) return;
+
+  var url = el.getAttribute('href');
+  if (!url) {
+    var m = /window\.location\.href\s*=\s*['"]([^'"]+)['"]/.exec(el.getAttribute('onclick') || '');
+    url = m && m[1];
+  }
+  if (!url || !/\.pdf($|[?#])/i.test(url)) return;
+
+  
+  
+  var u, label;
+  try {
+    u = new URL(url, location.href);
+    label = decodeURIComponent(u.pathname).replace(/^\/+/, '');
+    if (u.host !== location.host) label = u.host + '/' + label;
+  } catch (err) {
+    label = url;
+  }
+
+  window.goatcounter && window.goatcounter.count && window.goatcounter.count({
+    path:  'download/' + label,
+    title: 'PDF: ' + label,
+    event: true
+  });
+});
+</script>
+
+
   
   <hr/>
   <a href="https://github.com/baptiste-genest">Github</a> | <a href="https://bsky.app/profile/baptiste-genest.bsky.social">Bluesky</a> | <a href="https://scholar.google.com/citations?user=4gYLnGsAAAAJ&amp;hl=fr">Scholar</a> | Hugo Theme by <a href="https://yihui.org/">Yihui Xie</a>

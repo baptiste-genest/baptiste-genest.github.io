@@ -108,7 +108,7 @@ margin-right: auto;" alt= “” width="350" height=""></p>
 <li>very tunable and upgradable</li>
 </ul>
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
+<a class="button-4" href="./forest_fire.cpp">Code</a>
 </div>
 <br>
 <br>
@@ -134,7 +134,7 @@ with an implicit scheme, where the curve is re-parametrized by arc-length at eac
 </ul>
 <div style="text-align:center">
 <img src="../projects/vorayce.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button>
+<a class="button-4" href="../projects/rapport_pom.pdf">Report (french)</a>
 </div>
 <p><img src="region_growing.png" style="display: block; float:right;
 margin-left: auto;
@@ -145,7 +145,7 @@ margin-right: auto;" alt= “” width="250" height=""></p>
 <li>Efficient Split and Merge implementation using a quadtree structure and binary encoding to compute neighborhoods</li>
 </ul>
 <div style="text-align:center">
-<p><button class="button-4" style="display:right" onclick="window.location.href='../projects/rapport_seg.pdf'">Report</button></p>
+<p><a class="button-4" href="../projects/rapport_seg.pdf">Report</a></p>
 </div>
 <h2 id="edge-detection--hough-transform-and-improvements">Edge Detection : Hough Transform and improvements</h2>
 <ul>
@@ -158,7 +158,7 @@ margin-right: auto;" alt= “” width="250" height=""></p>
 <img src="../projects/dbscan.png" style="display:right; margin-left: auto; margin-right: auto;max-width:50%"/>
 </div>
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_edge_detection.pdf'">Report</button>
+<a class="button-4" href="../projects/rapport_edge_detection.pdf">Report</a>
 </div>
 <p><img src="stable_fluids.png" style="display: block; float:right;
 margin-left: auto;
@@ -194,7 +194,7 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <img src="../projects/AO.png" style="display:right; margin-left: auto; margin-right: auto;max-width:37%"/>
 </div>
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
+<a class="button-4" href="../projects/rapport_computer_graphics.pdf">Report (French)</a>
 </div>
 <h2 id="use-of-normal-information-to-improve-differential-operators-on-polygonal-meshes">Use of Normal information to improve differential operators on polygonal meshes</h2>
 <p>1 month research internship supervised by David Coeurjolly.</p>
@@ -204,7 +204,7 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 </ul>
 <div style="text-align:center">
 <img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
+<a class="button-4" href="../projects/polydec.pdf">Report (french)</a>
 </div>
 <h2 id="curves--clouds---a-scientific-visualization-and-computing-library">Curves &amp; Clouds - A scientific visualization and computing library</h2>
 <p>A lot a different topics are covered :</p>
@@ -231,7 +231,7 @@ margin-right: auto;" alt= “” width="300" height=""></p>
 <img src="../projects/quadtree_meshing.png" style="display:left; margin-left: auto; margin-right: auto;max-width:28%"/>
 </div>
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
+<a class="button-4" href="https://github.com/baptiste-genest/CurvesAndClouds/tree/main">Repo</a>
 </div>
 <h2 id="simple-raytracersphere-tracer">Simple raytracer/sphere-tracer</h2>
 <ul>
@@ -292,6 +292,42 @@ Version 2020  --------------------------------- Version 2024
 <script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
 
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+
+
+<script data-goatcounter="https://baptistegenest.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+<script>
+document.addEventListener('click', function (e) {
+  var el = e.target.closest('a[href], button[onclick]');
+  if (!el) return;
+
+  var url = el.getAttribute('href');
+  if (!url) {
+    var m = /window\.location\.href\s*=\s*['"]([^'"]+)['"]/.exec(el.getAttribute('onclick') || '');
+    url = m && m[1];
+  }
+  if (!url || !/\.pdf($|[?#])/i.test(url)) return;
+
+  
+  
+  var u, label;
+  try {
+    u = new URL(url, location.href);
+    label = decodeURIComponent(u.pathname).replace(/^\/+/, '');
+    if (u.host !== location.host) label = u.host + '/' + label;
+  } catch (err) {
+    label = url;
+  }
+
+  window.goatcounter && window.goatcounter.count && window.goatcounter.count({
+    path:  'download/' + label,
+    title: 'PDF: ' + label,
+    event: true
+  });
+});
+</script>
+
 
   
   <hr/>

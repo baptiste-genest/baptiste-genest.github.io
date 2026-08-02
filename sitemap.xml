@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://baptiste-genest.github.io/people/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/projects/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/publications/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/software/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/talks/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/teaching/</loc>
-  </url><url>
+  </url>
+  <url>
     <loc>https://baptiste-genest.github.io/toffee/</loc>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/bsp-ot-supp.pdf</loc>
+    <lastmod>2025-10-30T22:45:46+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/bsp-ot.pdf</loc>
+    <lastmod>2025-12-12T22:09:05+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/erratum_nesots.pdf</loc>
+    <lastmod>2024-06-29T14:17:41+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/gpgp.pdf</loc>
+    <lastmod>2026-06-28T18:56:53+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/gpgp_supp.pdf</loc>
+    <lastmod>2026-06-28T18:56:53+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/implicit_uvs.pdf</loc>
+    <lastmod>2026-07-26T16:39:05+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/implicit_uvs_erratum.pdf</loc>
+    <lastmod>2026-07-26T16:39:20+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://baptiste-genest.github.io/papers/implicit_uvs_supp.pdf</loc>
+    <lastmod>2026-07-26T16:42:48+02:00</lastmod>
   </url>
 </urlset>
