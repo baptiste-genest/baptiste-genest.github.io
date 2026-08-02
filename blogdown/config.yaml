@@ -46,6 +46,9 @@ menu:
 
 params:
   description: "Personal webpage of Baptiste Genest."
+  # GoatCounter site code, i.e. the CODE in https://CODE.goatcounter.com
+  # Leave empty to disable analytics entirely (no script is emitted).
+  goatcounter: "baptistegenest"
   footer: "[Github](https://github.com/baptiste-genest) | [Bluesky](https://bsky.app/profile/baptiste-genest.bsky.social) | [Scholar](https://scholar.google.com/citations?user=4gYLnGsAAAAJ&hl=fr) | Hugo Theme by [Yihui Xie](https://yihui.org/)"
 
 markup:

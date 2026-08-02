@@ -20,10 +20,10 @@ function copyBib(bib) {
 <img src="../teasers/gpgp.jpg" style="display:block; margin-left: auto; margin-right: auto;max-width:100%" alt="BSP-OT trailer" />
 
 <h3 style="text-align: center;"> <span style="color:Orange"> Best paper Award (Honorable mention) </span> </h3>
-<button class="button-4" onclick="window.location.href='../papers/gpgp.pdf'">Paper</button>
-<button class="button-4" onclick="window.location.href='../papers/gpgp_supp.pdf'">Supplementary</button>
-<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/GPGP'">Code</button>
-<button class="button-4" onclick="window.location.href='https://blog.siggraph.org/2026/05/beyond-deterministic-surfaces-uncertainty-aware-geometry-processing.html/'">News</button>
+<a class="button-4" href="../papers/gpgp.pdf">Paper</a>
+<a class="button-4" href="../papers/gpgp_supp.pdf">Supplementary</a>
+<a class="button-4" href="https://github.com/baptiste-genest/GPGP">Code</a>
+<a class="button-4" href="https://blog.siggraph.org/2026/05/beyond-deterministic-surfaces-uncertainty-aware-geometry-processing.html/">News</a>
 </div>
 
 
@@ -37,13 +37,13 @@ function copyBib(bib) {
 <h3 style="text-align: center;"> <span style="color:Orange"> Best Paper Award </span> </h3>
 
 
-<button class="button-4" onclick="window.location.href='../papers/bsp-ot.pdf'">Paper</button>
-<button class="button-4" onclick="window.location.href='../papers/bsp-ot-supp.pdf'">Supplementary</button>
-<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/BSP-OT'">Code</button>
-<button class="button-4" onclick="window.location.href='https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html'">POT</button>
-<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=afhEaVF7rZY'">Talk</button>
-<button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot'">Replicability Stamp</button>
-<button class="button-4" onclick="window.location.href='https://www.ins2i.cnrs.fr/fr/cnrsinfo/transport-optimal-une-methode-simple-et-efficace-pour-des-problemes-de-grande-taille'">News</button>
+<a class="button-4" href="../papers/bsp-ot.pdf">Paper</a>
+<a class="button-4" href="../papers/bsp-ot-supp.pdf">Supplementary</a>
+<a class="button-4" href="https://github.com/baptiste-genest/BSP-OT">Code</a>
+<a class="button-4" href="https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html">POT</a>
+<a class="button-4" href="https://www.youtube.com/watch?v=afhEaVF7rZY">Talk</a>
+<a class="button-4" href="https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot">Replicability Stamp</a>
+<a class="button-4" href="https://www.ins2i.cnrs.fr/fr/cnrsinfo/transport-optimal-une-methode-simple-et-efficace-pour-des-problemes-de-grande-taille">News</a>
 </div>
 
 ## Implicit UVs: Real-time semi-global parameterization of implicit surfaces {#implicit-uvs}
@@ -56,9 +56,9 @@ function copyBib(bib) {
 
 
 <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;">
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs.pdf'">Paper</button>
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_supp.pdf'">Supplementary</button>
-<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=CxpEMMbf5UM'"> Talk </button>
+<a class="button-4" href="../papers/implicit_uvs.pdf">Paper</a>
+<a class="button-4" href="../papers/implicit_uvs_supp.pdf">Supplementary</a>
+<a class="button-4" href="https://www.youtube.com/watch?v=CxpEMMbf5UM"> Talk </a>
 <details class="button-4-dropdown">
 <summary class="button-4">Code</summary>
 <div class="button-4-dropdown-menu">
@@ -66,8 +66,8 @@ function copyBib(bib) {
 <a href="https://github.com/ARez2/ImplicitUVsImplementation">Godot</a>
 </div>
 </details>
-<button class="button-4" onclick="window.location.href='../implicit_uvs_demo.html'">Web Demo</button>
-<button class="button-4" onclick="window.location.href='../papers/implicit_uvs_erratum.pdf'">Erratum</button>
+<a class="button-4" href="../implicit_uvs_demo.html">Web Demo</a>
+<a class="button-4" href="../papers/implicit_uvs_erratum.pdf">Erratum</a>
 </div>
 
 <p style="font-size:0.85em;color:#666;margin-top:4px;">Note: the Web Demo compiles its shaders on first load, which takes about a minute — please be patient.</p>
@@ -82,10 +82,10 @@ function copyBib(bib) {
 <img src="../teasers/nesots.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
 
 <h3 style="text-align: center;"> <span style="color:Orange"> Best paper Award </span> </h3>
-<button class="button-4" onclick="window.location.href='https://arxiv.org/abs/2402.16981'">Paper</button>
-<button class="button-4" onclick="window.location.href='https://github.com/baptiste-genest/NESOTS'">Code</button>
-<button class="button-4" onclick="window.location.href='https://www.youtube.com/watch?v=hB5cX-Iq8FA'">Talk</button>
-<button class="button-4" onclick="window.location.href='../papers/erratum_nesots.pdf'">Erratum</button>
-<button class="button-4" onclick="window.location.href='https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots'">Replicability Stamp</button>
-<button class="button-4" onclick="window.location.href='https://www.ins2i.cnrs.fr/fr/cnrsinfo/echantillonner-des-geometries-non-euclidiennes-par-transport-optimal'">News</button>
+<a class="button-4" href="https://arxiv.org/abs/2402.16981">Paper</a>
+<a class="button-4" href="https://github.com/baptiste-genest/NESOTS">Code</a>
+<a class="button-4" href="https://www.youtube.com/watch?v=hB5cX-Iq8FA">Talk</a>
+<a class="button-4" href="../papers/erratum_nesots.pdf">Erratum</a>
+<a class="button-4" href="https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-nesots">Replicability Stamp</a>
+<a class="button-4" href="https://www.ins2i.cnrs.fr/fr/cnrsinfo/echantillonner-des-geometries-non-euclidiennes-par-transport-optimal">News</a>
 </div>

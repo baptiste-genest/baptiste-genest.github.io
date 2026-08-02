@@ -83,7 +83,7 @@ $$
 - Some interesting properties, for instance fire can disappear completely from a tree and come back later due to spreading. 
 - very tunable and upgradable
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='./forest_fire.cpp'">Code</button>
+<a class="button-4" href="./forest_fire.cpp">Code</a>
 </div>
 <br>
 <br>
@@ -110,7 +110,7 @@ with an implicit scheme, where the curve is re-parametrized by arc-length at eac
 
 <div style="text-align:center">
 <img src="../projects/vorayce.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_pom.pdf'">Report (french)</button>
+<a class="button-4" href="../projects/rapport_pom.pdf">Report (french)</a>
 </div>
 
 
@@ -127,7 +127,7 @@ with an implicit scheme, where the curve is re-parametrized by arc-length at eac
 
 <div style="text-align:center">
 
-<button class="button-4" style="display:right" onclick="window.location.href='../projects/rapport_seg.pdf'">Report</button>
+<a class="button-4" href="../projects/rapport_seg.pdf">Report</a>
 </div>
 
 ## Edge Detection : Hough Transform and improvements
@@ -141,7 +141,7 @@ with an implicit scheme, where the curve is re-parametrized by arc-length at eac
 </div>
 
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_edge_detection.pdf'">Report</button>
+<a class="button-4" href="../projects/rapport_edge_detection.pdf">Report</a>
 </div>
 
 <img src="stable_fluids.png" style="display: block; float:right;
@@ -177,7 +177,7 @@ Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/St
 </div>
 
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/rapport_computer_graphics.pdf'">Report (French)</button>
+<a class="button-4" href="../projects/rapport_computer_graphics.pdf">Report (French)</a>
 </div>
 
 ## Use of Normal information to improve differential operators on polygonal meshes  
@@ -186,7 +186,7 @@ Standard [Stable Fluids](https://www.ljll.math.upmc.fr/~frey/cours/references/St
  (No conclusive results)
 <div style="text-align:center">
 <img src="../projects/embedder.png" style="display:block; margin-left: auto; margin-right: auto;max-width:80%" alt="NESOTS trailer" />
-<button class="button-4" style="display:center" onclick="window.location.href='../projects/polydec.pdf'">Report (french)</button>
+<a class="button-4" href="../projects/polydec.pdf">Report (french)</a>
 </div>
 
 
@@ -217,7 +217,7 @@ A lot a different topics are covered :
 
 
 <div style="text-align:center">
-<button class="button-4" style="display:center" onclick="window.location.href='https://github.com/baptiste-genest/CurvesAndClouds/tree/main'">Repo</button>
+<a class="button-4" href="https://github.com/baptiste-genest/CurvesAndClouds/tree/main">Repo</a>
 </div>
 
 

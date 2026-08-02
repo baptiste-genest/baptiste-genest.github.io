@@ -3,3 +3,40 @@
 <script src="//cdn.jsdelivr.net/combine/npm/katex/dist/katex.min.js,npm/katex/dist/contrib/auto-render.min.js,npm/@xiee/utils/js/render-katex.js" defer></script>
 
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/center-img.min.js" defer></script>
+
+{{ with .Site.Params.goatcounter }}
+<script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+{{/* Count PDF opens as events. The paper links are a mix of real <a href> and
+     <button onclick="window.location.href='...'">, so pull the target from either. */}}
+<script>
+document.addEventListener('click', function (e) {
+  var el = e.target.closest('a[href], button[onclick]');
+  if (!el) return;
+
+  var url = el.getAttribute('href');
+  if (!url) {
+    var m = /window\.location\.href\s*=\s*['"]([^'"]+)['"]/.exec(el.getAttribute('onclick') || '');
+    url = m && m[1];
+  }
+  if (!url || !/\.pdf($|[?#])/i.test(url)) return;
+
+  // Resolve ../ against the current page so each file gets one stable, unique
+  // label (two different paper.pdf would otherwise collide), and decode %20 etc.
+  var u, label;
+  try {
+    u = new URL(url, location.href);
+    label = decodeURIComponent(u.pathname).replace(/^\/+/, '');
+    if (u.host !== location.host) label = u.host + '/' + label;
+  } catch (err) {
+    label = url;
+  }
+
+  window.goatcounter && window.goatcounter.count && window.goatcounter.count({
+    path:  'download/' + label,
+    title: 'PDF: ' + label,
+    event: true
+  });
+});
+</script>
+{{ end }}
