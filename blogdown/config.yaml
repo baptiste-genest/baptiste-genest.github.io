@@ -37,7 +37,7 @@ menu:
     - name: Talks
       url: "talks/"
       weight: 6
-    - name: Toffee
+    - name: 😻 Toffee 😻
       url: "toffee/"
       weight: 7
     - name: People
