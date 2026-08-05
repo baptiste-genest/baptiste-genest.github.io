@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="https://baptiste-genest.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>😻 Toffee 😻</title>
+      <link>https://baptiste-genest.github.io/toffee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://baptiste-genest.github.io/toffee/</guid>
+      <description> A random Toffee picture to brighten your day.&#xA;ANOTHER ONE&#xA;Loading Toffee… Toffee in 3D </description>
+    </item>
+    <item>
       <title>Acknowledgements</title>
       <link>https://baptiste-genest.github.io/people/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -48,13 +55,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://baptiste-genest.github.io/teaching/</guid>
       <description>Formulaire de retour 2026 :&#xA;LIFAMI (printemps) : chargé de TP 2025 :&#xA;LIFAPI (automne) : chargé de TP LIFAPC (printemps) : chargé de TD Annale corrigée 1er contrôle : sujet vidéo de la correction fiche recap Si je suis votre chargé de TD/TP : vous pouvez m&amp;rsquo;envoyer un message anonymement (si vous n&amp;rsquo;avez pas compris quelque chose, me faire un retour, des points d&amp;rsquo;améliorations, etc&amp;hellip; n&amp;rsquo;hésitez pas, c&amp;rsquo;est là pour ça !</description>
-    </item>
-    <item>
-      <title>Toffee</title>
-      <link>https://baptiste-genest.github.io/toffee/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://baptiste-genest.github.io/toffee/</guid>
-      <description>A random Toffee picture to brighten your day.&#xA;ANOTHER ONE</description>
     </item>
   </channel>
 </rss>
