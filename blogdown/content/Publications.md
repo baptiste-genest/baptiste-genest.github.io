@@ -38,9 +38,16 @@ function copyBib(bib) {
 <h3 style="text-align: center;"> <span style="color:Orange"> Best Paper Award </span> </h3>
 
 
+<div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;">
 <a class="button-4" href="../papers/bsp-ot.pdf">Paper</a>
 <a class="button-4" href="../papers/bsp-ot-supp.pdf">Supplementary</a>
-<a class="button-4" href="https://github.com/baptiste-genest/BSP-OT">Code</a>
+<details class="button-4-dropdown">
+<summary class="button-4">Code</summary>
+<div class="button-4-dropdown-menu">
+<a href="https://github.com/baptiste-genest/BSP-OT">C++</a>
+<a href="https://github.com/baptiste-genest/BSP-OT-CUDA">CUDA</a>
+</div>
+</details>
 <a class="button-4" href="https://pythonot.github.io/master/auto_examples/plot_bsp_ot.html">POT</a>
 <a class="button-4" href="https://www.youtube.com/watch?v=afhEaVF7rZY">Talk</a>
 <a class="button-4" href="https://www.replicabilitystamp.org/#https-github-com-baptiste-genest-bsp-ot">Replicability Stamp</a>
