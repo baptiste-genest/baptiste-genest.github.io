@@ -69,6 +69,7 @@ My nice, smart and (incredibly) funny friends at the "Bureau 41" who make each d
 - [Mattéo Clémot](https://perso.ens-lyon.fr/matteo.clemot/)
 - [Lucas De Meyer](https://perso.liris.cnrs.fr/ldemeyer/home.html)
 - [Timon Deschamps](https://temporaldifference.com/)
+- [Arthur Dumas](https://liris.cnrs.fr/page-membre/arthur-dumas)
 - [Cyril Perosino](https://liris.cnrs.fr/page-membre/cyril-perosino)
 
 The [Origami team PhD students](https://projet.liris.cnrs.fr/origami/members/) are also wonderful people!
