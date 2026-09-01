@@ -19,7 +19,7 @@ Working with them has been such a pleasure and a blessing.
 ## Scientific heroes
 
 - [Gabriel Peyré](https://www.gpeyre.com/)
-  - His ["Oldies but goldies"](https://x.com/gabrielpeyre/status/1194857492292915200) 
+  - His ["Oldies but goldies"](https://mathematical-tours.github.io/tweets-posted/presentation.html) 
   Twitter series basically introduced me to all the topics I love today, I wouldn't be where I am today without him.
 - [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/) 
   - The ["Heat method"](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html) made me fall in love with Geometry Processing and differential geometry.
