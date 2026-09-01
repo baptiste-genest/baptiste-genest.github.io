@@ -56,7 +56,6 @@ People who consistently do amazing work.
 - [Etienne Corman](https://members.loria.fr/ECorman/)
 - [Mark Gillespie](https://markjgillespie.com/)
 - [Yousuf Soliman](https://www.yousufsoliman.com/index.html)
-- [Nicholas Sharp](https://nmwsharp.com/) (Since I discovered it, ALL my projects have used [Polyscope](https://polyscope.run/))
 - [Mohammad Sina Nabizadeh](https://sinabiz.github.io/)
 - [Silvia Sellán](https://www.cs.columbia.edu/~silviasellan/)
 
@@ -74,4 +73,16 @@ My nice, smart and (incredibly) funny friends at the "Bureau 41" who make each d
 
 The [Origami team PhD students](https://projet.liris.cnrs.fr/origami/members/) are also wonderful people!
 
+## My favorite papers
 
+A non-ordered and non-exhaustive list of papers that made me go "wow" or motivated me to learn something
+
+- [Implicit Minimal Surfaces for Bijective Correspondances](https://members.loria.fr/ECorman/Papers/ImplicitMinimalSurfaces.pdf) Corman et al.
+- [Fluid Implicit Particles on Coadjoint Orbits](https://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/) Nabizadeh et al.
+- [Going with the flow](https://www.yousufsoliman.com/projects/download/GoingWithTheFlow.pdf) Soliman et al.
+- [Monte Carlo Geometry Processing](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html) Sawhney et al.
+- [The Heat Method for Distance Computation](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html), [Trivial Connections on Discrete Surfaces](https://www.cs.cmu.edu/~kmcrane/Projects/TrivialConnections/) Crane et al.
+- [Repulsive Curves](https://www.cs.cmu.edu/~kmcrane/Projects/RepulsiveCurves/index.html) Yu et al.
+- [Computing Minimal Surfaces with Differential Forms](https://cseweb.ucsd.edu/~alchern/projects/MinimalCurrent/) Wang et al.
+- [Stochastic Poisson Surface Reconstruction](https://www.dgp.toronto.edu/projects/stochastic-psr/) Sellán et al.
+- [Notions of optimal transport and how to implement them in a computer](https://arxiv.org/pdf/1710.02634) Lévy et al.

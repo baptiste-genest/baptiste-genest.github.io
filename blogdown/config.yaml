@@ -40,7 +40,7 @@ menu:
     - name: 😻 Toffee 😻
       url: "toffee/"
       weight: 7
-    - name: People
+    - name: Tribute
       url: "people/"
       weight: 8
 
