@@ -79,6 +79,7 @@ A non-ordered and non-exhaustive list of papers that made me go "wow" or motivat
 
 - [Implicit Minimal Surfaces for Bijective Correspondances](https://members.loria.fr/ECorman/Papers/ImplicitMinimalSurfaces.pdf) Corman et al.
 - [Fluid Implicit Particles on Coadjoint Orbits](https://cseweb.ucsd.edu/~viscomp/projects/SIGA24COFLIP/) Nabizadeh et al.
+- [Lipschitz Pruning](https://wbrbr.org/publications/LipschitzPruning/) Barbier et al.
 - [Going with the flow](https://www.yousufsoliman.com/projects/download/GoingWithTheFlow.pdf) Soliman et al.
 - [Monte Carlo Geometry Processing](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html) Sawhney et al.
 - [The Heat Method for Distance Computation](https://www.cs.cmu.edu/~kmcrane/Projects/HeatMethod/index.html), [Trivial Connections on Discrete Surfaces](https://www.cs.cmu.edu/~kmcrane/Projects/TrivialConnections/) Crane et al.
