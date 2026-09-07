@@ -1,14 +1,8 @@
-echo "---- UPLOAD SOURCE ----";
-git pull
-git add --all;
-git commit -m "up site";
-git push;
-cd ../baptiste-genest.github.io
-
-echo "---- UPLOAD SITE ----"
-
+#!/bin/sh
+# Publish: commit the source and push. GitHub Actions builds Hugo and
+# deploys to Pages (see .github/workflows/hugo.yml).
+set -e
+git pull --rebase
 git add --all
-git commit -m "up site"
-git push --force
-
-cd -
+git commit -m "${1:-up site}"
+git push
