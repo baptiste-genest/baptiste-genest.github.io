@@ -85,3 +85,4 @@ A non-ordered and non-exhaustive list of papers that made me go "wow" or motivat
 - [Stochastic Poisson Surface Reconstruction](https://www.dgp.toronto.edu/projects/stochastic-psr/) Sellán et al.
 - [Notions of optimal transport and how to implement them in a computer](https://arxiv.org/pdf/1710.02634) Lévy et al.
 - [Convolutional Wasserstein Barycenters](https://people.csail.mit.edu/jsolomon/assets/convolutional_w2.compressed.pdf) Solomon et al. (The figures in it almost single-handedly made me want to discover and learn Optimal Transport!)
+- [Curvatubes](https://arxiv.org/pdf/2103.04856) Anna Song
