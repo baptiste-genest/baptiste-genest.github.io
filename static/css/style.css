@@ -6,7 +6,15 @@ body {
 }
 
 /* header and footer areas */
-.menu { padding: 0; }
+/* the deploy uses `hugo --minify`, which drops the whitespace between <li>
+   tags, so the gaps come from flex `gap` rather than inter-tag spaces */
+.menu {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5em;
+}
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
