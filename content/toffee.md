@@ -39,7 +39,7 @@ A random Toffee picture to brighten your day.
 </div>
 </div>
 
-<script>let nb_imgs = 47;
+<script>let nb_imgs = 48;
 
 const shuffledArray = Array.from(
     { length: nb_imgs },
