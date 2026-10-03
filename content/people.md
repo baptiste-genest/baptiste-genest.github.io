@@ -1,5 +1,5 @@
 ---
-title: "Acknowledgements"
+title: "Inspirations"
 ---
 
 <div style="text-align:center">
