@@ -53,6 +53,7 @@ I went to university. I am forever grateful to them for that.
 - [Yousuf Soliman](https://www.yousufsoliman.com/index.html)
 - [Mohammad Sina Nabizadeh](https://sinabiz.github.io/)
 - [Silvia Sellán](https://www.cs.columbia.edu/~silviasellan/) (She is an *amazing* team leader!)
+- [Jean Feydy](https://jeanfeydy.com/)
 
 ## Lab-mates
 
