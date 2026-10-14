@@ -47,8 +47,6 @@ I went to university. I am forever grateful to them for that.
 
 ## Inspiring researchers
 
-People who consistently do amazing work.
-
 - [Mathieu Desbrun](https://www.geometry.caltech.edu/pubs.html) *The literal GOAT*
 - [Etienne Corman](https://members.loria.fr/ECorman/)
 - [Mark Gillespie](https://markjgillespie.com/)
