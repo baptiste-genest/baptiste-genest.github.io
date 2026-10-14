@@ -54,7 +54,7 @@ People who consistently do amazing work.
 - [Mark Gillespie](https://markjgillespie.com/)
 - [Yousuf Soliman](https://www.yousufsoliman.com/index.html)
 - [Mohammad Sina Nabizadeh](https://sinabiz.github.io/)
-- [Silvia Sellán](https://www.cs.columbia.edu/~silviasellan/)
+- [Silvia Sellán](https://www.cs.columbia.edu/~silviasellan/) (She is an *amazing* team leader!)
 
 ## Lab-mates
 
